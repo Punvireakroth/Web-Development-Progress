@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.header {
+  background-color: #c4dfaa;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-me {
+  opacity: 50%;
+  font-size: 20px;
+  padding-bottom: 30px;
+}
+
+.title {
+  font-weight: 600;
+  padding-left: 30px;
+}
+
+.body {
+  background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+  padding: 80px;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+/* For Project padding  */
+.body h2 {
+  padding-bottom: 30px;
+}
+
+img {
+  border-radius: 25%;
+}
+
+h1 {
+  color: white;
+  font-size: 2rem;
+}
+
+/* make design project text abit left */
+.right {
+  padding-right: 113px;
+}
+/* Make list go to the center */
+ul {
+  display: table;
+  margin: 0 auto;
+  list-style: none;
+  line-height: 2.5rem;
+  opacity: 50%;
+  text-align: left;
+}
+/* make second ul abit left */
+.ul_left {
+  padding-right: 35px;
+}
+
+/* Below code is for footer section */
+footer {
+  text-align: center;
+  padding: 80px;
+  background-color: #eeeeee;
+  line-height: 2rem;
+}
+
+.contact {
+  padding-bottom: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: #76ba99;
+  font-size: 1.2rem;
+}
