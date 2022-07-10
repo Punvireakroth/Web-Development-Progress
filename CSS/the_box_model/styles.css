@@ -12,6 +12,7 @@ body {
 .navigation li {
   font-weight: 100;
   letter-spacing: 2px;
+  padding: 20px;
 }
 
 .navigation li.logo {
@@ -19,6 +20,10 @@ body {
   font-size: 18px;
   font-weight: 700;
   letter-spacing: 4px;
+}
+
+.content {
+  text-align: center;
 }
 
 #banner {
@@ -35,6 +40,7 @@ body {
   width: 400px;
   margin: 0 auto;
   border: 3px solid white;
+  border-radius: 15px;
 }
 
 #main {
@@ -56,6 +62,10 @@ h2 {
   line-height: 48px;
   text-align: center;
   border: 1px dotted red;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 h3 {
@@ -97,6 +107,7 @@ p {
   color: white;
   display: inline-block;
   text-decoration: none;
+  padding: 14px;
 }
 
 .share a:hover {
