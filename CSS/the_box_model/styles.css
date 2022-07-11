@@ -122,3 +122,7 @@ p {
   border: 1px solid red;
   color: red;
 }
+
+.donate {
+  visibility: hidden;
+}
