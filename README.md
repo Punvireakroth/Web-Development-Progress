@@ -2,3 +2,63 @@
 
 Each folder correlates to the matching from the courses | Self-Learning projects ....
 All of the notes are in the `Notes.md` file in each folder. Examples, exercises, projects, etc. are labeled accordingly.
+
+# CSS
+
+### Some of the projects I did when I learn CSS concept
+
+#### [👨‍💻Vireak Roth Portfolio](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/CSS/Vireak_Roth_Portfolio)
+
+    ->I've learned about some CSS properties
+
+![Alt text](https://raw.githubusercontent.com/Punvireakroth/Web-Development-Progress/main/CSS/Vireak_Roth_Portfolio/images/vireakroth_site.png "Optional title")
+
+##### [⭐️Vireak's Burgers](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/CSS/the_box_model/VireakRoth's%20Burgers)
+
+    ->A simple box model concept🔥
+    ->Skills:, HTML, CSS,
+
+##### [⭐️Tindog Website](https://parv3213.github.io/Web-development/TinDog/index.html)
+
+    ->A beautiful front-end similar to tinder🔥
+    ->Skills: HTML, CSS, Bootstrap
+
+##### [⭐️Dicee Chalange](https://parv3213.github.io/Web-development/Dicee-Challenge/dicee.html)
+
+    ->Alternate for a coin toss 🎲
+    ->Skills: HTML, CSS, JavaScript
+
+##### [⭐️Drum-Kit](https://parv3213.github.io/Web-development/Drum-Kit/index.html)
+
+    ->A simple drum-kit 🥁
+    ->Skills: HTML, CSS, JavaScript
+
+##### [⭐️Simon-Game](https://parv3213.github.io/Web-development/Simon-Game/Simon-Game.html)
+
+    ->Simon-Game 🎮
+    ->Skills: HTML, CSS, JavaScript, JQuery
+
+##### [⭐️Newsletter-App](https://newsletter-app-parv.herokuapp.com/)
+
+    ->Newsletter Subscribe using the MailChimp-API 📪
+    ->Skills: HTML, CSS, Bootstrap, JavaScript, Express, APIs', Heroku
+
+##### [⭐️Daily Journal](https://daily-journal-parv.herokuapp.com/)
+
+    ->Journal for adding and reading articles 📒
+    ->Skills: HTML, CSS, Bootstrap, JavaScript, Express, EJS, Mongoose, Heroku
+
+##### [⭐️TodoList](https://todolist-parv.herokuapp.com/)
+
+    ->A To-do list Application 📋
+    ->Skills: HTML, CSS, Bootstrap, JavaScript, Express, EJS, Mongoose-Atlis, Heroku
+
+##### [CSS-My-Site](https://parv3213.github.io/Web-development/CSS-My-Site/index.html)
+
+    ->About me! 👤
+    ->Skills: HTML, CSS
+
+##### [HTML_PERSONAL_SITES](https://parv3213.github.io/Web-development/Practice/HTML-Personal-Sites/)
+
+    ->My resume 📃
+    ->Skills: HTML, Basic CSS
