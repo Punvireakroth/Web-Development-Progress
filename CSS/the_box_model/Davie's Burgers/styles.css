@@ -29,6 +29,7 @@ nav span {
   font-size: 16px;
   font-weight: 100;
   letter-spacing: 2px;
+  margin: 10px 0;
 }
 
 nav a {
@@ -39,6 +40,10 @@ nav a {
 
 .content {
   width: 100%;
+  height: 500px;
+  margin: 10px auto;
+  /* for 500px of height some content will be overflow to the parent so I make it scrollable */
+  overflow: scroll;
 }
 
 /* Content Header */
@@ -63,6 +68,7 @@ nav a {
 
 .content .body {
   width: 90%;
+  margin: 0 auto;
 }
 
 .body p {
