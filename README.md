@@ -55,12 +55,7 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
     ->A To-do list Application 📋
     ->Skills: HTML, CSS, Bootstrap, JavaScript, Express, EJS, Mongoose-Atlis, Heroku
 
-##### [CSS-My-Site](https://parv3213.github.io/Web-development/CSS-My-Site/index.html)
+##### [CSS-My-Site](https://punvireakroth.github.io/Personal-site/)
 
     ->About me! 👤
     ->Skills: HTML, CSS
-
-##### [HTML_PERSONAL_SITES](https://parv3213.github.io/Web-development/Practice/HTML-Personal-Sites/)
-
-    ->My resume 📃
-    ->Skills: HTML, Basic CSS
