@@ -18,6 +18,8 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
     ->A simple box model concept🔥
     ->Skills:, HTML, CSS,
 
+![Alt text](https://raw.githubusercontent.com/Punvireakroth/Web-Development-Progress/main/CSS/the_box_model/VireakRoth's%20Burgers/images/burgers.png "Optional title")
+
 ##### [⭐️Tindog Website](https://parv3213.github.io/Web-development/TinDog/index.html)
 
     ->A beautiful front-end similar to tinder🔥
