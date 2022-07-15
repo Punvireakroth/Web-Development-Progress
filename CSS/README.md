@@ -1,6 +1,6 @@
 # Fundamentals of CSS3
 
-## Fundamentals of CSS3 Objective
+## <span style="color:blue">Fundamentals of CSS3 Objective</span>
 
 In this section I'll show you the following concept
 
@@ -8,7 +8,7 @@ In this section I'll show you the following concept
 - The Box Models
 - Display and Positioning
 
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
+[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
 ### Syntax
 
