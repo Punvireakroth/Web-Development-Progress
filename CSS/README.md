@@ -20,31 +20,59 @@ CSS or cascading style sheet is used to make the web page more appealing
 
 <img src="images/anatomy.png" alt="anatomy">
 
-```css
-selector:pseudo-class {
-  property: value;
-}
-```
+### Inline style
 
-### :hover
-
-The `:hover` CSS pseudo-class matches when the user interacts with an element with a pointing device, but does not necessarily activate it. It is generally triggered when the user hovers over an element with the cursor (mouse pointer).
-
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover)
-
-#### Example
+you can directly add CSS within HTML
 
 ```css
-div:hover {
-  background: purple;
-}
+<p style='color: red; font-size: 20px;'>I'm learning to code!</p>
 ```
 
-### :focus
+### Internal Stylesheet
 
-The `:focus` CSS pseudo-class represents an element (such as a form input) that has received focus. It is generally triggered when the user clicks or taps on an element or selects it with the keyboard's "tab" key.
+When we use the `inline style` we need to manually change it one by one which is not a good practice. But we have another method that uses the `internal stylesheet`.
 
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:focus)
+it written within the head element
+
+```css
+<head>
+  <style>
+    p {
+      color: red;
+      font-size: 20px;
+    }
+  </style>
+</head>
+```
+
+### External Stylesheet
+
+Developer write avoid writing mix code which mean HTML with CSS so what they do is they separate those file.
+
+for CSS they put `.css` file extension
+
+### Linking the CSS File
+
+in order to make HTML file locate the CSS file we need to link it together
+
+```css
+<link href='./style.css' rel='stylesheet'>
+```
+
+1. `href` — like the anchor element, the value of this attribute must be the address, or path, to the CSS file.
+2. `rel` — this attribute describes the relationship between the HTML file and the CSS file. Because you are linking to a stylesheet, the value should be set to `stylesheet`.
+
+### Review
+
+- The basic anatomy of CSS syntax written for both inline styles and stylesheets.
+- Some commonly used CSS terms, such as ruleset, selector, and declaration.
+- CSS inline styles can be written inside the opening HTML tag using the style attribute.
+- Inline styles can be used to style HTML, but it is not the best practice.
+- An internal stylesheet is written using the <style> element inside the <head> element of an HTML file.
+- Internal stylesheets can be used to style HTML but are also not best practice.
+- An external stylesheet separates CSS code from HTML, by using the “.css”.file extension.
+- External stylesheets are the best approach when it comes to using HTML and CSS.
+- External stylesheets are linked to HTML using the <link> element.
 
 #### Example
 
