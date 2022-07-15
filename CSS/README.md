@@ -1,8 +1,12 @@
-# CSS3 Animations: Transforms & Transitions
+# Fundamentals of CSS3
 
-## Pseudo-classes
+## Fundamentals of CSS3 Objective
 
-A CSS **pseudo-class** is a keyword added to a selector that specifies a special state of the selected element(s). For example, `:hover` can be used to apply a style when the user hovers over a button.
+In this section I'll show you the following concept
+
+- Selector and Visual Rule
+- The Box Models
+- Display and Positioning
 
 [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
