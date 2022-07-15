@@ -74,52 +74,74 @@ in order to make HTML file locate the CSS file we need to link it together
 - External stylesheets are the best approach when it comes to using HTML and CSS.
 - External stylesheets are linked to HTML using the <link> element.
 
-#### Example
+## Selector
+
+### Type
+
+the _selector_ will target the element we want to style by declaration.
+
+_type selector_ use to target specific HTML elements to be styled.
+
+_type selector is_ often called _element selector_ or _name selector._
+
+### Universal
+
+Universal selects all elements on the page it use to
+
+- Reset default sytle on a page
+- selecting all children of a parents element
+
+### Class
+
+You can select and style elements with HTML class
+
+### Multiple Classes
+
+in CSS we can apply more than one class of an element
 
 ```css
-input:focus {
-  color: red;
-}
-```
-
-### :active
-
-The `:active` CSS pseudo-class represents an element (such as a button) that is being activated by the user. When using a mouse, "activation" typically starts when the user presses down the primary mouse button and ends when it is released. The `:active` pseudo-class is commonly used on `<a>` and `<button>` elements, but may be used on other elements, too.
-
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/:active)
-
-#### Example
-
-```css
-button:active {
+.green {
   color: green;
 }
+
+.bold {
+  font-weight: bold;
+}
 ```
 
-## Transforms
+```css
+<h1 class='green bold'> ... </h1>
+```
 
-The **transform** CSS property lets you modify the coordinate space of the CSS visual formatting model. Using it, elements can be translated, rotated, scaled, and skewed.
+### ID
 
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transform)
+If we want style HTML element unique on the page we can use ID
 
-### Translation
+ID value can only use once on a page
 
-Move or shift an object.
+### attribute
 
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/translate)
+As we learn from the HTML section attributes use to give more detail and functionality
 
-#### Example
+We can use attribute selector to select HTML element to be style
 
 ```css
-div {
-  transform: translateX(100px); /* Will move 100px to the right */
+[href] {
+  color: magenta;
 }
-div {
-  transform: translateX(-100px); /* Will move 100 px to the LEFT */
+```
+
+```css
+<img src='/images/seasons/cold/winter.jpg'>
+<img src='/images/seasons/warm/summer.jpg'>
+```
+
+```css
+img[src*="winter"] {
+  height: 50px;
 }
-div {
-  transform: translate(20px, 20px);
-  /* First number is x, second number is y */
+img[src*="summer"] {
+  height: 100px;
 }
 ```
 
