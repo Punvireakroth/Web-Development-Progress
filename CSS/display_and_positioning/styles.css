@@ -6,6 +6,8 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
+  position: absolute;
+  width: 100%;
 }
 
 ul {
