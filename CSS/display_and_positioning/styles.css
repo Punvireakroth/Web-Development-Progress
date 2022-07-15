@@ -6,7 +6,7 @@ body {
 header {
   background-color: #466995;
   border-bottom: 1px solid #466995;
-  position: absolute;
+  position: fixed;
   width: 100%;
 }
 
@@ -81,6 +81,8 @@ footer {
   padding: 40px;
   text-align: center;
   width: 100%;
+  position: relative;
+  top: 200px;
 }
 
 .question {
