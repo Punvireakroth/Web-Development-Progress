@@ -1,6 +1,6 @@
 # Fundamentals of CSS3
 
-## <span style="color:blue">Fundamentals of CSS3 Objective</span>
+## Fundamentals of CSS3 Objective
 
 In this section I'll show you the following concept
 
@@ -10,7 +10,15 @@ In this section I'll show you the following concept
 
 [MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS)
 
-### Syntax
+## SetUp and Syntax
+
+### Intro to CSS
+
+CSS or cascading style sheet is used to make the web page more appealing
+
+### CSS Anatomy
+
+![alt text](https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F65e9e1a8-ff8d-4433-863f-5860b7e36ba3%2FUntitled.png?table=block&id=a8fd9696-2bc3-4d8d-aa11-afa434b92cd2&spaceId=8eba03d3-96a9-4bc1-9b94-e22118c6c4ab&width=2000&userId=90e77d72-e84d-4806-942c-6c6816946138&cache=v2 "Title")
 
 ```css
 selector:pseudo-class {
