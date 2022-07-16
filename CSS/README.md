@@ -145,100 +145,60 @@ img[src*="summer"] {
 }
 ```
 
-### Scaling
+### Pseudo-class
 
-Alter the size of an object.
-
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/scale)
-
-#### Example
+Pseudo-class change it appearance or behavior base on user interaction
+`:focus`, `:visited`, `:disabled`, and `:active` are all pseudo-classes.
 
 ```css
-div {
-  transform: scale(2);
-  /* Will double the size of the div */
-}
-div {
-  transform: scaleX(1.5);
-  /* Will expand the element horizontally */
-  transform: scaleY(0.5);
-  /* Will shrink the element vertically */
-}
-div {
-  transform: scale(4, 0.25);
-  /* Will expand the element horizontally, and shrink it vertically */
+p:hover {
+  background-color: lime;
 }
 ```
 
-In the example in folder `7_scale`, you will notice that when an element is scaled, everything scales. This includes the font and the border. Scale, by default, scales from the element's center. It expands or shrinks evenly on both or all sides. This can be changed by a propery called **transform-origin**.
+### Classes and IDs
 
-This will put the origin in the top left of the element, so it from that point, making the element grow down and to the right.
+Class use on multiple elements
+
+ID use only for one element
+
+### Specificity
+
+it’s the precedent of which style should be used to style
+
+CSS code in style.css is low specificity because the creator wants them to be easy to override.
+
+### Chaining
+
+training is the process we combine the selector together in order to make the selection of the element more specific.
 
 ```css
-div {
-  transform: scale(2);
-  transform-origin: 0 0;
-}
-div {
-  transform: scale(2);
-  transform-origin: top left;
-  /* Same as above example, written in an alternate form */
+h1.special {
 }
 ```
 
-### Rotate
+### Descendant Combinator
 
-Using CSS to... Rotate things!
-
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Web/CSS/transform-function/rotate)
-
-#### Example
-
-```css
-div {
-  transform: rotate(45deg);
-  /* Positive is clockwise, negative is counter-clockwise */
-}
-```
-
-> NOTE: Rotate seems like something that wouldn't be used very often, but a common use case for it is loading icons!
-> **Transform-origin** also applies to rotate. By default, things rotate around their center, but we can change it to rotate around a side or a corner. It functions exactly the same as when we used it with `scale()`.
-
-### Multiple Transforms
-
-When performing multiple transformations on an element, the syntax requires all of the functions be within a single transform property:
+we combine selectors to make the element we want to style specific
 
 ```css
 /* WRONG */
-div {
-  transform: rotate(90deg);
-  transform: scale(0.5);
-}
-/* RIGHT */
-div {
-  transform: rotate(90deg) scale(0.5);
+.destination h5 {
 }
 ```
 
-Refer to the example in folder `8_rotate` to see it in action.
+### Chaining and Specificity
 
-## Vendor(Browser) Prefixes
+When we chain the selector it is more specific
 
-[MDN Reference](https://developer.mozilla.org/en-US/docs/Glossary/Vendor_Prefix)
+### Multiple Selector
 
-Use an auto-prefixer to do the work for you. [Here's one.](https://autoprefixer.github.io/)
-
-## Transitions
-
-Allow us to control animation speed when changing CSS properties.
-
-> Double the size of this div **over 3 seconds**
-> There are 4 transition properties that we can control
-
-1. transition-duration
-2. transition-property
-3. transition-timing-function
-4. transition-delay
+```css
+h1,
+.menu {
+  font-family: Georgia;
+}
+```
 
 ### Transition-duration
 
