@@ -23,6 +23,8 @@ li {
   font-size: 16px;
   font-weight: 300;
   text-transform: uppercase;
+  display: inline-block;
+  width: 80px;
 }
 
 li:hover {
@@ -84,7 +86,7 @@ footer {
   text-align: center;
   width: 100%;
   position: relative;
-  top: 200px;
+  top: 50px;
 }
 
 .question {
@@ -96,6 +98,7 @@ footer {
 .answer {
   border: 1px solid #466995;
   margin: 20px;
+  display: inline-block;
 }
 
 .answer:hover {
