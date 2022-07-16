@@ -74,6 +74,7 @@ p {
 footer {
   background-color: #dbe9ee;
   text-align: center;
+  height: 100px;
 }
 
 .welcome {
