@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333333;
+}
+
+nav {
+  margin: 0;
+  padding: 20px 0;
+}
+
+nav li {
+  color: #ffff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+main {
+  text-align: center;
+}
+
+main h1 {
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  margin-top: 0;
+  padding-top: 80px;
+  margin-bottom: 80px;
+}
+
+footer {
+  background-color: #333;
+  color: #ffff;
+  padding: 30px 0;
+}
+
+footer p {
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
+
+.jumbotron {
+  height: 800px;
+  background-image: url("https://capitalcambodia.com/wp-content/uploads/2020/03/Phnom-Penh.jpg");
+  /* Make css fit into its container */
+  background-size: cover;
+}
+
+.btn-main {
+  color: #ffff;
+  border: 1px solid #333;
+  background-color: #333;
+  padding: 15px 30px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.btn-default {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 10px;
+  letter-spacing: 1.3px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+.container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10px;
+  text-align: center;
+}
+
+.supporting {
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+.supporting .col {
+  font-family: "Raleway", sans-serif;
+}
+.supporting img {
+  height: 32px;
+}
+
+.supporting h2 {
+  font-weight: 600;
+  font-size: 23px;
+  padding-bottom: 20px;
+}
+
+.supporting p {
+  font-size: 14px;
+  font-weight: 400;
+  padding: 0 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+}
+.supporting a {
+  text-decoration: none;
+  color: #333;
+  border-color: #333333;
+  font-weight: 600;
+  padding: 10px;
+  letter-spacing: 1.3px;
+  border: 2px solid #333333;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 500px) {
+  main h1 {
+    font-size: 50px;
+    padding: 0 40px;
+  }
+
+  .supporting .col {
+    width: 100%;
+  }
+}
