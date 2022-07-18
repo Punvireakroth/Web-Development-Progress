@@ -22,7 +22,7 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
 
 ##### [⭐️Broadway](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/CSS/display_and_positioning/broadway)
 
-    ->Skills: HTML, CSS, Bootstrap
+    ->Skills: HTML, CSS, Layout & Positioning
 
 ![Alt text](https://github.com/Punvireakroth/Web-Development-Progress/blob/main/CSS/display_and_positioning/broadway/images/broadway.png "broadway")
 
