@@ -20,11 +20,11 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
 
 ![Alt text](https://raw.githubusercontent.com/Punvireakroth/Web-Development-Progress/main/CSS/the_box_model/VireakRoth's%20Burgers/images/burgers.png "Optional title")
 
-##### [⭐️Broadway](https://parv3213.github.io/Web-development/TinDog/index.html)
-
-![Alt text](https://github.com/Punvireakroth/Web-Development-Progress/blob/main/CSS/display_and_positioning/broadway/images/broadway.png "broadway")
+##### [⭐️Broadway](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/CSS/display_and_positioning/broadway)
 
     ->Skills: HTML, CSS, Bootstrap
+
+![Alt text](https://github.com/Punvireakroth/Web-Development-Progress/blob/main/CSS/display_and_positioning/broadway/images/broadway.png "broadway")
 
 ##### [⭐️Dicee Chalange](https://parv3213.github.io/Web-development/Dicee-Challenge/dicee.html)
 
