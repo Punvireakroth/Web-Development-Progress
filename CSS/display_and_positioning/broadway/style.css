@@ -7,6 +7,7 @@ header {
   background-color: #333333;
   position: fixed;
   width: 100%;
+  z-index: 1;
 }
 
 nav {
@@ -18,16 +19,20 @@ nav li {
   color: #ffff;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 18px;
   display: inline-block;
+  width: 400px;
+  text-align: center;
 }
 
 main {
   text-align: center;
+  position: relative;
+  top: 60px;
 }
 
 main h1 {
-  color: #333;
+  color: #fff;
   font-family: "Raleway", sans-serif;
   font-size: 70px;
   font-weight: 600;
@@ -89,6 +94,9 @@ footer p {
 }
 .supporting .col {
   font-family: "Raleway", sans-serif;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
 }
 .supporting img {
   height: 32px;
