@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/pattern.jpeg");
+  height: 200px;
+}
+
+.header h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 100px;
+  font-weight: 600;
+  color: khaki;
+  text-align: center;
+  padding-top: 40px;
+}
