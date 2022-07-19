@@ -1,4 +1,4 @@
-additional resources:
+Additional resources:
 
 Video: [Getting started with Visual Studio Code](https://code.visualstudio.com/docs/introvideos/basics)
 
