@@ -48,3 +48,22 @@ Command line is a text based interface that take commands and passes them on to 
 - combine simple command to handle difficult tasks.
   In command line we refer to folder as directories
   File and directories in your computer are organized into a filesystem
+
+#### Filesystem
+
+A filesystem organize files and directories into a tree stucture
+
+1. The first directory in filesystem is `root directory`
+2. Each Parent directory can contain one or more files or directories
+
+#### ls
+
+First thing you see in the terminal is $ sign it is called `shell prompt`
+
+`$ ls` the terminal would display our current directory's file and directory
+
+#### pwd
+
+`pwd` stand for print working directory. It show where you are in the filesystem. (The directory you are currently in are called working directory)
+
+#### cd I
