@@ -1,3 +1,9 @@
+# TABLE OF CONTENTS
+
+1.[ABOUT JAVASCRIPT](#about-javascript)
+
+2.[INTRODUCTION TO JAVASRIPT](#introduction-to-javascript)
+
 # ABOUT JAVASCRIPT
 
 In 1990 when the internet was boomed computers try to make websites. Two companies Microsoft (Internet Explorer) and Netscape have a browser war. Netscape was won by building a lightweight language in 10 days first the founder called it a mocha. More and more companies have used JavaScript to create their site over time
@@ -42,7 +48,7 @@ In addition, JavaScript has the potential of expanding into other innovative tec
   - promises for asynchronous actions,
   - and many more!
 
-# Introduction to JavaScript
+# INTRODUCTION TO JAVASCRIPT
 
 ## What is JavaScript?
 
