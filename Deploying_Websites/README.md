@@ -31,3 +31,20 @@ We do not buy server and set up ourself but instead we rent
 #### How does it work ?
 
 <img src="https://github.com/Punvireakroth/Web-Development-Progress/blob/main/Deploying_Websites/images/how_domain_name_work.png" alt="domain name">
+
+- When choosing a domain name pick the one that is simple and easy to remember
+
+## Deploy with GitHub Pages
+
+Video: [What is GitHub Pages](https://www.youtube.com/watch?v=2MsN8gpT6jY)
+
+## Command Line
+
+Command line is a text based interface that take commands and passes them on to the computer's operating system to run.
+
+- It can run program
+- Navigate filesystem
+- automate common tasks
+- combine simple command to handle difficult tasks.
+  In command line we refer to folder as directories
+  File and directories in your computer are organized into a filesystem
