@@ -84,3 +84,9 @@ We can create directory without moving into that directory by specify the direct
 #### touch
 
 We can use `touch` command to create an empty file
+
+#### Helper command
+
+`clear` use to clear the previous command
+we can use tab key to auto complete the name we are meant to type
+we can use up or down arrow key to go to previous command
