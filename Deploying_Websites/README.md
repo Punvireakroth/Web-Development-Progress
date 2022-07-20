@@ -67,3 +67,20 @@ First thing you see in the terminal is $ sign it is called `shell prompt`
 `pwd` stand for print working directory. It show where you are in the filesystem. (The directory you are currently in are called working directory)
 
 #### cd I
+
+`cd` is stand for change directory. It's change the working directory we working on. cd take one argument which is the name of the directory we wanna change to.
+
+#### cd II
+
+We can move further than one step by replacing the arugument by directory path
+
+`cd vireakroth\2022`
+
+#### mkdir
+
+We can create directory using `mkdir` command
+We can create directory without moving into that directory by specify the directory path `$ mkdir media/tv`
+
+#### touch
+
+We can use `touch` command to create an empty file
