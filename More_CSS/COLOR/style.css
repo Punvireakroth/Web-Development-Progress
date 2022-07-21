@@ -69,3 +69,79 @@
 .italian {
   background-color: black;
 }
+
+/* Typography */
+h1 {
+  color: #41292c;
+  font-family: "Covered By Your Grace", sans-serif;
+  font-size: 100px;
+  line-height: 76px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  top: 20%;
+}
+
+h2 {
+  color: #e4bb97;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 500;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #41292c;
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 500;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 0.2em;
+}
+
+h5 {
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  line-height: 0.2em;
+  font-weight: 300;
+}
+
+/* Page elements */
+ul {
+  margin: 0 auto;
+  padding: 0;
+  width: 75%;
+}
+
+li {
+  border-bottom: 1px solid #e4bb97;
+  list-style: none;
+  margin: 100px 0px;
+  padding-bottom: 60px;
+}
+
+p {
+  color: #444444;
+  line-height: 32px;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+a {
+  color: #214e34;
+  font-family: "Raleway", sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
