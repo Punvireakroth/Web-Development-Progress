@@ -26,3 +26,12 @@
   border-radius: 4px;
   align-self: center;
 }
+
+.roasting p {
+  color: #938e89;
+  text-align: center;
+  line-height: 24px;
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+}
