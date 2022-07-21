@@ -1,8 +1,8 @@
 # TABLE OF CONTENTS
 
-1.[ABOUT JAVASCRIPT](#about-javascript)
+1. [ABOUT JAVASCRIPT](#about-javascript)
 
-2.[INTRODUCTION TO JAVASRIPT](#introduction-to-javascript)
+2. [INTRODUCTION TO JAVASRIPT](#introduction-to-javascript)
 
 # ABOUT JAVASCRIPT
 
