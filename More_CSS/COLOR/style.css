@@ -1,13 +1,13 @@
 * {
   padding: 0;
   margin: 0;
-  background: #f7f7f7;
+  /* background: #f7f7f7; */
   /* Old browsers */
-  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%);
+  /* background: -moz-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%); */
   /* FF3.6-15 */
-  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%);
+  /* background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%); */
   /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%);
+  /* background: linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%); */
 }
 
 /* Header style */
@@ -42,4 +42,30 @@
   color: #ffffff;
   overflow: auto;
   opacity: 0.9;
+}
+
+.spectrum p {
+  color: #ffffff;
+  text-align: left;
+}
+
+/* roase type */
+.spectrum {
+  background-color: darkseagreen;
+}
+
+.light {
+  background-color: sienna;
+}
+
+.city {
+  background-color: saddlebrown;
+}
+
+.vienna {
+  background-color: brown;
+}
+
+.italian {
+  background-color: black;
 }
