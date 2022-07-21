@@ -1,20 +1,20 @@
-* {
+body {
   padding: 0;
   margin: 0;
-  /* background: #f7f7f7; */
+  background: #f7f7f7;
   /* Old browsers */
-  /* background: -moz-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%); */
+  background: -moz-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%);
   /* FF3.6-15 */
-  /* background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%); */
+  background: -webkit-linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%);
   /* Chrome10-25,Safari5.1-6 */
-  /* background: linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%); */
+  background: linear-gradient(45deg, #f7f7f7 0%, #eae0d5 100%);
 }
 
 /* Header style */
 .header {
   background-image: url(https://images.unsplash.com/photo-1455267847942-f4fdb784f0c5?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
   height: 400px;
-  background-position: center;
+  background-position: center center;
 }
 
 .roasting {
@@ -37,7 +37,7 @@
 }
 
 .spectrum div {
-  font-family: inherit;
+  font: inherit;
   padding: 0 20px;
   color: #ffffff;
   overflow: auto;
@@ -50,7 +50,7 @@
 }
 
 /* roase type */
-.spectrum {
+.green {
   background-color: darkseagreen;
 }
 
