@@ -35,3 +35,11 @@
   font-size: 16px;
   font-weight: 400;
 }
+
+.spectrum div {
+  font-family: inherit;
+  padding: 0 20px;
+  color: #ffffff;
+  overflow: auto;
+  opacity: 0.9;
+}
