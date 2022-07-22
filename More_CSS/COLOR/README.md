@@ -32,3 +32,12 @@ first value represents the amount of red followed by green and blue for the next
 ## RGB and Hex
 
 With Hex or RGB each can represent 256 values thus `256 * 256 * 256 = 16,777,216` That a lot of color.
+
+## Hue, Saturation, and Lightness
+
+There another color system called HSL
+first value is hue than saturation and light
+
+```css
+color: hsl(120, 60%, 70%);
+```
