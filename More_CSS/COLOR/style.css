@@ -51,25 +51,24 @@ body {
 
 /* roase type */
 .green {
-  background-color: darkseagreen;
+  background-color: #8fbc8f;
 }
 
 .light {
-  background-color: sienna;
+  background-color: #a0522d;
 }
 
 .city {
-  background-color: saddlebrown;
+  background-color: #8b4513;
 }
 
 .vienna {
-  background-color: brown;
+  background-color: #a52a2a;
 }
 
 .italian {
-  background-color: black;
+  background-color: #000000;
 }
-
 /* Typography */
 h1 {
   color: midnightblue;
