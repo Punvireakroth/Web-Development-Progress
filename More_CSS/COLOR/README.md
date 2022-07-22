@@ -17,7 +17,7 @@ There are two distinct colors in design aspect
 
 often called hex color it consists of # followed by 3 or 6 values that represent RGB color. the value can be uppercase or lowercase.
 
-### RGB
+## RGB
 
 often refer to “RGB value” the syntax look like this
 
@@ -28,3 +28,7 @@ h1 {
 ```
 
 first value represents the amount of red followed by green and blue for the next value.
+
+## RGB and Hex
+
+With Hex or RGB each can represent 256 values thus `256 * 256 * 256 = 16,777,216` That a lot of color.
