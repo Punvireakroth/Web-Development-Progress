@@ -41,3 +41,16 @@ first value is hue than saturation and light
 ```css
 color: hsl(120, 60%, 70%);
 ```
+
+## Opacity and Alpha
+
+Opacity is how much we can see through that element.
+It can apply to hls rgb and hex values. and the value is between 0 - 1
+
+```css
+color: hsla(34, 100%, 50%, 0.1);
+```
+
+```css
+color: rgba(234, 45, 98, 0.33);
+```
