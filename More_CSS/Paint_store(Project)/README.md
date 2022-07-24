@@ -1,7 +1,8 @@
 ## COlORS
 
--> #94B49F
--> #CEE5D0
+-> #CCD6A6
+-> #DAE2B6
+-> #DFE8CC
 
 ## Font
 
