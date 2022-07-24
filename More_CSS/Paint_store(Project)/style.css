@@ -37,17 +37,20 @@ strong {
 header {
   display: flex;
   align-items: center;
-  background-color: blue;
+  background-color: #dae2b6;
   padding: 0.5rem 3.75rem;
 }
 header li {
   display: inline-block;
   position: relative;
   width: 200px;
-  left: 60%;
+  left: 80px;
   bottom: 10px;
+  color: #ffff;
+  font-weight: 600;
+  top: 1px;
 }
 
 header img {
-  height: 100px;
+  height: 60px;
 }
