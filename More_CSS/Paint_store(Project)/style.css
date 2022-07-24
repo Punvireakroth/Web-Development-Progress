@@ -84,3 +84,16 @@ header img {
   line-height: 2rem;
   font-size: 16px;
 }
+
+@media only screen and (max-width: 820px) {
+  h1 {
+    padding-top: 7rem;
+    font-size: 6rem;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  h1 {
+    font-size: 4rem;
+  }
+}
