@@ -32,3 +32,22 @@ strong {
     font-size: 14px;
   }
 }
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  background-color: blue;
+  padding: 0.5rem 3.75rem;
+}
+header li {
+  display: inline-block;
+  position: relative;
+  width: 200px;
+  left: 60%;
+  bottom: 10px;
+}
+
+header img {
+  height: 100px;
+}
