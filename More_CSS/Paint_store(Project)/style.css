@@ -117,5 +117,28 @@ header img {
   margin-bottom: 40px;
 }
 
-.introduction color {
+#color-guide .color {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5rem;
+}
+
+.color .information {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 35%;
+}
+
+.information h3 {
+  color: lightcoral;
+  font-size: 1.375rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+.color .information p {
+  font-size: 0.875rem;
+  line-height: 1.5rem;
+  color: #7e7474;
 }
