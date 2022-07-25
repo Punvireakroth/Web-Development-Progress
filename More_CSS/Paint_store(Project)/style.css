@@ -82,7 +82,7 @@ header img {
   padding-left: 400px;
   padding-right: 400px;
   line-height: 2rem;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 @media only screen and (max-width: 820px) {
@@ -96,4 +96,9 @@ header img {
   h1 {
     font-size: 4rem;
   }
+}
+/*  Color-guide */
+
+#color-guide {
+  padding: 3.872rem 15% 13.5rem 15%;
 }
