@@ -11,7 +11,7 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
 
     ->I've learned positioning
 
-![Alt text](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/More_CSS/Media "Paint Suggestion")
+![Alt text](https://github.com/Punvireakroth/Web-Development-Progress/blob/main/More_CSS/Media/more_css.gif "Paint Suggestion")
 
 #### [👨‍💻Vireak Roth Portfolio](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/CSS/Vireak_Roth_Portfolio)
 
