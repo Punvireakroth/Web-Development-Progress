@@ -100,5 +100,22 @@ header img {
 /*  Color-guide */
 
 #color-guide {
-  padding: 3.872rem 15% 13.5rem 15%;
+  padding: 2rem 15% 13.5rem 15%;
+  margin-top: 0;
+}
+
+#color-guide .introduction {
+  padding: 0 10%;
+  margin-bottom: 0.75rem;
+  text-align: center;
+  font-size: 1.375rem;
+  line-height: 1.4;
+  color: #7e7474;
+}
+.introduction h2 {
+  color: #c4dfaa;
+  margin-bottom: 40px;
+}
+
+.introduction color {
 }
