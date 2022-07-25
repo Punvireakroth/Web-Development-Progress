@@ -102,6 +102,7 @@ header img {
 #color-guide {
   padding: 2rem 15% 13.5rem 15%;
   margin-top: 0;
+  background-color: #f1f1f1;
 }
 
 #color-guide .introduction {
@@ -152,7 +153,7 @@ header img {
   font-weight: 600;
 }
 
-.color .swatches {
+.color .swatch {
   display: flex;
   height: 6.6875rem;
   border: 10px solid #efefef;
@@ -195,4 +196,202 @@ header img {
   .color .swatches {
     width: 100%;
   }
+}
+
+/* Red Swatches */
+
+.reds .base-color {
+  color: #ff002b;
+}
+
+/* Red lightness decreases by 15 */
+.reds .lightness .color-1 {
+}
+
+.reds .lightness .color-2 {
+  background-color: hsl(350, 100%, 65%);
+}
+
+.reds .lightness .color-3 {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .lightness .color-4 {
+  background-color: hsl(350, 100%, 35%);
+}
+
+.reds .lightness .color-5 {
+  background-color: hsl(350, 100%, 20%);
+}
+
+/* Red saturation decreases by 15 */
+.reds .saturation .color-1 {
+}
+
+.reds .saturation .color-2 {
+  background-color: hsl(350, 85%, 50%);
+}
+
+.reds .saturation .color-3 {
+  background-color: hsl(350, 70%, 50%);
+}
+
+.reds .saturation .color-4 {
+  background-color: hsl(350, 55%, 50%);
+}
+
+.reds .saturation .color-5 {
+  background-color: hsl(350, 40%, 50%);
+}
+
+/* Red hue increases by 15 */
+.reds .hue .color-1 {
+}
+
+.reds .hue .color-2 {
+  background-color: hsl(335, 100%, 50%);
+}
+
+.reds .hue .color-3 {
+  background-color: hsl(350, 100%, 50%);
+}
+
+.reds .hue .color-4 {
+  background-color: hsl(5, 100%, 50%);
+}
+
+.reds .hue .color-5 {
+  background-color: hsl(20, 100%, 50%);
+}
+
+/* Green swatch */
+
+.greens .base-color {
+  color: #00ff2a;
+}
+
+/* Green lightness decreases by 20 */
+.greens .lightness .color-1 {
+}
+
+.greens .lightness .color-2 {
+  background-color: hsl(103, 100%, 70%);
+}
+
+.greens .lightness .color-3 {
+  background-color: hsl(103, 100%, 50%);
+}
+
+.greens .lightness .color-4 {
+  background-color: hsl(103, 100%, 30%);
+}
+
+.greens .lightness .color-5 {
+  background-color: hsl(104, 100%, 10%);
+}
+
+/* Green saturation decreases by 20 */
+.greens .saturation .color-1 {
+}
+
+.greens .saturation .color-2 {
+  background-color: hsl(130, 80%, 50%);
+}
+
+.greens .saturation .color-3 {
+  background-color: hsl(130, 60%, 50%);
+}
+
+.greens .saturation .color-4 {
+  background-color: hsl(130, 40%, 50%);
+}
+
+.greens .saturation .color-5 {
+  background-color: hsl(131, 20%, 50%);
+}
+
+/* Green hue increases by 22 */
+.greens .hue .color-1 {
+}
+
+.greens .hue .color-2 {
+  background-color: hsl(108, 100%, 50%);
+}
+
+.greens .hue .color-3 {
+  background-color: hsl(130, 100%, 50%);
+}
+
+.greens .hue .color-4 {
+  background-color: hsl(152, 100%, 50%);
+}
+
+.greens .hue .color-5 {
+  background-color: hsl(174, 100%, 50%);
+}
+
+/* Blue Swatches */
+
+.blues .base-color {
+  color: #0055ff;
+}
+
+/* Blue lightness decreases by 20 */
+.blues .lightness .color-1 {
+}
+
+.blues .lightness .color-2 {
+  background-color: hsl(220, 100%, 70%);
+}
+
+.blues .lightness .color-3 {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .lightness .color-4 {
+  background-color: hsl(220, 100%, 30%);
+}
+
+.blues .lightness .color-5 {
+  background-color: hsl(220, 100%, 10%);
+}
+
+/* Blue saturation decreases by 20 */
+.blues .saturation .color-1 {
+}
+
+.blues .saturation .color-2 {
+  background-color: hsl(220, 80%, 50%);
+}
+
+.blues .saturation .color-3 {
+  background-color: hsl(220, 60%, 50%);
+}
+
+.blues .saturation .color-4 {
+  background-color: hsl(220, 40%, 50%);
+}
+
+.blues .saturation .color-5 {
+  background-color: hsl(220, 20%, 50%);
+}
+
+/* Blue hue decreases by 20 */
+.blues .hue .color-1 {
+}
+
+.blues .hue .color-2 {
+  background-color: hsl(240, 100%, 50%);
+}
+
+.blues .hue .color-3 {
+  background-color: hsl(220, 100%, 50%);
+}
+
+.blues .hue .color-4 {
+  background-color: hsl(200, 100%, 50%);
+}
+
+.blues .hue .color-5 {
+  background-color: hsl(180, 100%, 50%);
 }
