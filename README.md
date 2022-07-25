@@ -7,6 +7,12 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
 
 ### Some of the projects I did when I learn CSS concept
 
+#### [Paint Guide](<https://github.com/Punvireakroth/Web-Development-Progress/tree/main/More_CSS/Paint_store(Project)>)
+
+    ->I've learned positioning
+
+![Alt text](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/More_CSS/Media "Paint Suggestion")
+
 #### [👨‍💻Vireak Roth Portfolio](https://github.com/Punvireakroth/Web-Development-Progress/tree/main/CSS/Vireak_Roth_Portfolio)
 
     ->I've learned about some CSS properties
