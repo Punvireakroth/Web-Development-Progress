@@ -102,3 +102,19 @@ h1 {
 it can take 1 to 1000
 
 but it commly take from 100. 400 is the default font weight 700 is the bold font weight.
+
+## Text Transformation
+
+With text transform, you can format the text to uppercase or lower case without touching the text in HTML file.
+
+## Text Layout
+
+We can set text layout such as
+
+**line height**: How much space we wanna give between each line.
+
+**word spacing**: How much space between words
+
+**letter-spacing:** How much space between each letter
+
+**text-align**: How we wanna display the text ( left center or right or justify)
