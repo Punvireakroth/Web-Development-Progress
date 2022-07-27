@@ -85,3 +85,20 @@ h1 {
 
 - Serif and Sans-Serif
   Unlike sans-serif, serif font have extra details on the end.
+
+## Font-Weight
+
+`font-weight` can take keyword value or Numberical values
+
+**Keyword value**
+
+- `bold`: Bold font weight.
+- `normal`: Normal values weight. This is the default valNumerical
+- `lighter`: font-weight lighter than element’s parent value.
+- `bolder`: One font weight bolder than the element’s parent value
+
+**Numerical Values**
+
+it can take 1 to 1000
+
+but it commly take from 100. 400 is the default font weight 700 is the bold font weight.
