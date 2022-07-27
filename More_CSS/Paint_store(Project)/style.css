@@ -78,6 +78,8 @@ header img {
   font-family: "Edu VIC WA NT Beginner", cursive;
   color: #fff;
   font-size: 8rem;
+  /* color: rgba(0, 0, 0, 0.7); */
+  opacity: 0.9;
 }
 
 #banner p {
@@ -154,6 +156,7 @@ header img {
   margin-bottom: 1.25rem;
   font-size: 1.125rem;
   font-weight: 600;
+  color: #9b9b9b;
 }
 
 .color .swatch {
@@ -415,6 +418,7 @@ footer {
   font-size: 1.125rem;
   line-height: 1.4;
   color: white;
+  font-weight: 200;
 }
 
 footer:before {
