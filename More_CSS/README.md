@@ -118,3 +118,8 @@ We can set text layout such as
 **letter-spacing:** How much space between each letter
 
 **text-align**: How we wanna display the text ( left center or right or justify)
+
+## Web Fonts
+
+We can include font from outside system like Google Fonts
+and Adobe Fonts, host fonts that you can link to from your HTML document with a provided `<link>` element.
