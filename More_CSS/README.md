@@ -54,3 +54,34 @@ color: hsla(34, 100%, 50%, 0.1);
 ```css
 color: rgba(234, 45, 98, 0.33);
 ```
+
+# TYPOGRAPHY
+
+textual is the content most user see by making it engaging is important for user experience
+
+## Font-family
+
+There something you need to consider when setting fonts
+
+- multi-word values : You need to put quotation marks ‘ ’ around font-name
+
+```css
+h1 {
+  font-family: "Times New Roman";
+}
+```
+
+- Web safe font
+  There are some selected fonts that will display the same across platforms
+  [here](https://www.cssfontstack.com/)
+- Fallback Font and Font Stacks
+  Use to prevent if the font doesn’t have in the system.
+
+```css
+h1 {
+  font-family: Caslon, Georgia, "Times New Roman";
+}
+```
+
+- Serif and Sans-Serif
+  Unlike sans-serif, serif font have extra details on the end.
