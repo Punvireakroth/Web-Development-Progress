@@ -123,3 +123,39 @@ We can set text layout such as
 
 We can include font from outside system like Google Fonts
 and Adobe Fonts, host fonts that you can link to from your HTML document with a provided `<link>` element.
+
+## Web Fonts Using <link>
+
+You can use google font
+
+Watch this video
+
+[Click here](https://www.youtube.com/watch?v=Z3JR6mEWEEo)
+
+## Web Fonts Using @font-face
+
+Instead of using the font from google link we also can download it to use as well.
+
+It’s can come in file format such as
+
+- OTF (OpenType Font)
+- TTF (TrueType Font)
+- WOFF (Web Open Font Format)
+- WOFF2 (Web Open Font Format 2)
+
+To use it we can do as the following
+
+- After you downlaoded it and drag it into a file folder in our project we are ready to use it
+
+```css
+@font-face {
+  font-family: "MyParagraphFont";
+  src: url("fonts/Roboto.woff2") format("woff2"), url("fonts/Roboto.woff") format("woff"), url("fonts/Roboto.ttf") format("truetype");
+}
+```
+
+```css
+p {
+  font-family: "MyParagraphFont", sans-serif;
+}
+```
