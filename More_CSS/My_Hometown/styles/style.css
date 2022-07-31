@@ -36,3 +36,18 @@ html {
   display: inline;
   padding-right: 2.22rem;
 }
+
+.header li a {
+  text-decoration: none;
+  color: #4a4a4a;
+}
+
+@media only screen and (max-width: 550px) {
+  .header {
+    flex-direction: column;
+  }
+
+  .header .logo {
+    flex-grow: 0;
+  }
+}
