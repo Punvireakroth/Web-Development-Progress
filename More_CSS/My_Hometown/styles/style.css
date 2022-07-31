@@ -152,6 +152,7 @@ body {
   padding: 4.44rem 0;
   margin-bottom: 3.33rem;
   border-top: 4px solid black;
+  border-bottom: 4px solid black;
   text-align: center;
   font-size: 3.55rem;
   font-weight: 800;
@@ -160,5 +161,51 @@ body {
 @media only screen and (max-width: 680px) {
   .journal {
     padding: 0 10% 4rem 10%;
+  }
+}
+
+/* footer */
+footer {
+  display: flex;
+  align-items: center;
+  padding: 0 1%;
+  background-color: #212121;
+}
+
+footer .image-container {
+  width: 400px;
+}
+
+footer .content {
+  flex-grow: 1;
+  font-style: italic;
+  color: #9b9b9b;
+}
+
+footer p {
+  padding-bottom: 1.66rem;
+  position: relative;
+  left: 50%;
+  font-size: 1.2rem;
+}
+
+footer p:last-child {
+  padding-bottom: 0;
+}
+
+footer .author {
+  color: #ffb78c;
+}
+
+@media only screen and (max-width: 750px) {
+  footer {
+    flex-direction: column;
+    padding: 0 10% 2rem 10%;
+  }
+
+  footer .image-container {
+    height: 300px;
+    margin-bottom: 2rem;
+    overflow: hidden;
   }
 }
