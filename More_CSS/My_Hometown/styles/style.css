@@ -28,7 +28,7 @@ body {
   padding: 0 12%;
   background-color: 0 2px 6px 0 rgba(0, 0, 0, 0.05);
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 0.77rem;
+  font-size: 1.2rem;
 }
 
 .header .logo {
@@ -65,4 +65,100 @@ body {
   background: url("../../../More_CSS/My_Hometown/media/dey_thai.JPG") center center no-repeat;
   background-size: cover;
   color: #ffb78c;
+}
+
+.banner h2 {
+  padding: 0.55rem 0;
+  border-top: 4px solid #ffb78c;
+  border-bottom: 4px solid #ffb78c;
+  font-size: 1.44rem;
+  letter-spacing: 2px;
+}
+
+.banner h1 {
+  padding-top: 1.11rem;
+  font-size: 11rem;
+}
+
+@media only screen and (max-width: 750px) {
+  .banner {
+    height: 40rem;
+  }
+
+  .banner h1 {
+    font-size: 8rem;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .banner {
+    height: 30rem;
+  }
+
+  .banner h1 {
+    font-size: 6rem;
+  }
+}
+
+/* Scenary */
+.scenery {
+  padding: 0 25% 4rem 25%;
+  background-color: rgb(254, 231, 218);
+  color: #4a4a4a;
+}
+
+.photo {
+  width: 75%;
+  padding: 1.11rem;
+  border-radius: 5px;
+  margin: 0 auto 4.44rem auto;
+  background-color: white;
+}
+
+.photo .image-container {
+  overflow: hidden;
+  margin-bottom: 1.11rem;
+}
+
+.photo .image-container img {
+  width: 100%;
+}
+
+.photo .caption {
+  font-style: italic;
+}
+
+.photo.first {
+  position: relative;
+  top: -2.77rem;
+  margin-bottom: 1.67rem;
+}
+
+.scenery p {
+  padding-bottom: 2.77rem;
+  font-size: 1.5rem;
+}
+
+.scenery .first-letter {
+  float: left;
+  padding-right: 1.4rem;
+  font-family: "Abril Fatface", serif;
+  font-size: 7.44rem;
+  color: #10b0d8;
+}
+
+.quote {
+  display: block;
+  padding: 4.44rem 0;
+  margin-bottom: 3.33rem;
+  border-top: 4px solid black;
+  text-align: center;
+  font-size: 3.55rem;
+  font-weight: 800;
+}
+
+@media only screen and (max-width: 680px) {
+  .journal {
+    padding: 0 10% 4rem 10%;
+  }
 }
