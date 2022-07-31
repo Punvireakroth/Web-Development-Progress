@@ -14,6 +14,10 @@ html {
   }
 }
 
+body {
+  margin: 0;
+  padding: 0;
+}
 /* Header */
 
 .header {
@@ -50,4 +54,15 @@ html {
   .header .logo {
     flex-grow: 0;
   }
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50rem;
+  background: url("../../../More_CSS/My_Hometown/media/dey_thai.JPG") center center no-repeat;
+  background-size: cover;
+  color: #ffb78c;
 }
