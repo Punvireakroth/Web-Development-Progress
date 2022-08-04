@@ -2,14 +2,36 @@ body {
   text-align: center;
   margin: 0;
   padding: 0;
+  margin-top: 100px;
+  font-family: "Roboto Mono", monospace;
+  background-color: #e7f6f2;
 }
 
-.table-one table {
+table {
   position: relative;
-  left: 35%;
+  border: 1px solid black;
+  left: 30%;
+}
+
+/* .table-one table {
+  position: relative;
+  left: 30%;
 }
 
 .table-two table {
   position: relative;
-  left: 35%;
+  left: 30%;
+} */
+
+footer {
+  position: absolute;
+  bottom: 0;
+  height: 110px;
+  width: 100%;
+  background-color: #395b64;
+  /* border: 5px solid black; */
+  padding-top: 30px;
+}
+
+footer .personal-info {
 }
