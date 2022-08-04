@@ -1,0 +1,15 @@
+body {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.table-one table {
+  position: relative;
+  left: 35%;
+}
+
+.table-two table {
+  position: relative;
+  left: 35%;
+}
