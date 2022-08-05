@@ -8,20 +8,21 @@ body {
 }
 
 table {
-  position: relative;
+  margin: 0 auto;
   border: 1px solid black;
-  left: 30%;
+  table-layout: fixed;
+  width: 600px;
+  border-collapse: collapse;
+  width: 80%;
+  text-align: left;
 }
-
-/* .table-one table {
-  position: relative;
-  left: 30%;
+th,
+td {
+  width: 300px;
+  border: 1px solid black;
+  overflow: hidden;
+  width: 70%;
 }
-
-.table-two table {
-  position: relative;
-  left: 30%;
-} */
 
 footer {
   position: absolute;
@@ -33,5 +34,9 @@ footer {
   padding-top: 30px;
 }
 
-footer .personal-info {
+.first-col {
+  font-family: "monospace";
+  background-color: beige;
+
+  margin: 1.2rem;
 }
