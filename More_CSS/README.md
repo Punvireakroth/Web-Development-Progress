@@ -213,3 +213,5 @@ a:hover {
 Be aware not to use onstand-alone a stand alone signifier for a link becuaes in phone browser do not have the hover curser and it is not a good idea to do so as well.
 
 ## Link States
+
+Links have four main states: normal (not clicked), hover, active (clicked), and visited. These four states have associated CSS pseudo-classes: `:link`, `:hover`, `:active`, and `:visited`.
