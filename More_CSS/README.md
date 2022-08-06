@@ -179,3 +179,19 @@ The take away from this is we should maintainig a consistent user experience pat
 Link Should style differently from the surrounding text.
 The color of the link should contrast and different style from the text in order pages.
 Properties that use to style links are often with `text-decoration` and `color`
+
+## Tooltips and Titles
+
+Sometimes it is helpful to provide additional context to anchor text in the case like images, icons, and order nontext element
+
+We usethe `title` attribute to provide tooltips (a descriptive box which contains the text of an element’s `title` attribute and appears near the user’s cursor.)
+
+```html
+<p>
+  <a
+    href="https://en.wikipedia.org/wiki/Angkor_Wat"
+    title="Angkor Wat is a temple complex in Cambodia and is the largest religious monument in the world, on a site measuring 162.6 hectares. Breaking from Shaiva tradition of previous kings, Angkor Wat was dedicated to Vishnu for the Khmer Empire."
+    >Ankor Wat
+  </a>
+</p>
+```
