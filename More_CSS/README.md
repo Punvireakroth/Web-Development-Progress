@@ -215,3 +215,9 @@ Be aware not to use onstand-alone a stand alone signifier for a link becuaes in 
 ## Link States
 
 Links have four main states: normal (not clicked), hover, active (clicked), and visited. These four states have associated CSS pseudo-classes: `:link`, `:hover`, `:active`, and `:visited`.
+
+## Skeuomorphism and Flat Design
+
+The concept of UI elements that replicate or imitate real-life counterparts is known as *skeuomorphism.* It’s provide the user feeling that they can do just as with the real object for example button is for press.
+
+But nowaday designer seem to use flat design more becuase it is less clutter and simple.
