@@ -167,3 +167,9 @@ p {
 You should have design emphasis for the novice user. You should have a signifier in order for user to know where to navigate on your site.
 
 ## Browser Link Styles
+
+The browser has a user agent style sheet it’s a set of default styles included in the browser for use on all web pages. But it is often override by the developer.
+
+Did you notice that the lhas han an underline and color in blue it is what I’m talking about user agent style sheet.
+
+The take away from this is we should maintainig a consistent user experience pattern.
