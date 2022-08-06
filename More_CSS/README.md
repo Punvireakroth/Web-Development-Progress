@@ -195,3 +195,21 @@ We usethe `title` attribute to provide tooltips (a descriptive box which contain
   </a>
 </p>
 ```
+
+## Hover States and Cursors
+
+In addition to styling a link by putting color and underline we can use hover to make it change its appearance when the mouse curser hover on that element.
+
+```css
+a {
+  color: blue;
+}
+
+a:hover {
+  color: orange;
+}
+```
+
+Be aware not to use onstand-alone a stand alone signifier for a link becuaes in phone browser do not have the hover curser and it is not a good idea to do so as well.
+
+## Link States
