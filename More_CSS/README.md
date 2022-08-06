@@ -159,3 +159,11 @@ p {
   font-family: "MyParagraphFont", sans-serif;
 }
 ```
+
+# Links and Buttons
+
+## Introduction
+
+You should have design emphasis for the novice user. You should have a signifier in order for user to know where to navigate on your site.
+
+## Browser Link Styles
