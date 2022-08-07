@@ -245,3 +245,11 @@ To create Skeuomorphic styling we can use image file or CSS rule but CSS is enco
   box-shadow: 0px 0px;
 }
 ```
+
+## Buttons: Flat Design
+
+Flat design buttons commonly appear as rectangles, rounded rectangles, or circles. Button text is very important for avoid confusion to the user.
+
+## Buttons: Hover States
+
+Just like links button also encourage to use hover and cursor:pointer as well.
