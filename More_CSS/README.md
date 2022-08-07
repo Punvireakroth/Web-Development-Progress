@@ -221,3 +221,27 @@ Links have four main states: normal (not clicked), hover, active (clicked), and 
 The concept of UI elements that replicate or imitate real-life counterparts is known as *skeuomorphism.* It’s provide the user feeling that they can do just as with the real object for example button is for press.
 
 But nowaday designer seem to use flat design more becuase it is less clutter and simple.
+
+## Buttons: Skeuomorphic styling
+
+To create Skeuomorphic styling we can use image file or CSS rule but CSS is encouraged because it more responsive and faster load than image.
+
+```css
+.button {
+  padding: 5px;
+  border: 1px solid black;
+  border-radius: 5px;
+  text-decoration: none;
+  box-shadow: 0px 5px;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button:active {
+  margin-top: 5px;
+  color: black;
+  box-shadow: 0px 0px;
+}
+```
