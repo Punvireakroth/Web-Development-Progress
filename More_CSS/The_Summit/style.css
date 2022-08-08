@@ -6,7 +6,6 @@ body {
 
 .navigation {
   background-color: #fff;
-  z-index: 10;
   box-sizing: border-box;
   width: 100%;
   text-align: center;
@@ -14,6 +13,7 @@ body {
   top: 0px;
   border-bottom: 1px solid #ddd;
   overflow-y: auto;
+  z-index: 1;
 }
 .nav-bar {
   display: inline-block;
@@ -27,4 +27,41 @@ body {
   font-family: "Gloria Hallelujah", cursive;
   font-size: xx-large;
   color: #2176ff;
+}
+
+/* Banner */
+.banner {
+  background-image: url("https://images.unsplash.com/photo-1418290232843-5d7a0bd93f7d?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1001&q=80&cs=tinysrgb");
+  height: 40rem;
+  background-position: center top;
+  background-size: cover;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+  text-align: center;
+  top: 50px;
+  width: 100%;
+}
+
+.banner-text {
+  position: relative;
+  top: 200px;
+}
+
+h1 {
+  color: #fff;
+  font-weight: 100;
+  font-size: 4rem;
+  margin: 0;
+  letter-spacing: 0.5rem;
+  text-align: center;
+}
+
+h2 {
+  position: relative;
+  margin: 0px;
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: 6rem;
+  color: #2176ff;
+  bottom: 70px;
+  font-weight: 400;
 }
