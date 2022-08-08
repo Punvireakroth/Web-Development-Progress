@@ -4,6 +4,11 @@ body {
   padding: 0;
 }
 
+a {
+  text-decoration: none;
+  color: blue;
+  cursor: default;
+}
 .navigation {
   background-color: #fff;
   box-sizing: border-box;
@@ -64,4 +69,55 @@ h2 {
   color: #2176ff;
   bottom: 70px;
   font-weight: 400;
+}
+
+/* body section */
+.experience {
+  padding: 100px 200px 50px 200px;
+  line-height: 2.5rem;
+  font-size: 18px;
+  position: relative;
+  text-align: left;
+  letter-spacing: 1px;
+  background-image: url("https://content.codecademy.com/courses/learn-links-and-buttons/project/mountain1.jpg");
+  background-position: center top;
+  background-size: cover;
+  overflow-y: auto;
+}
+
+.experience h3 {
+  font-family: "Gloria Hallelujah", cursive;
+  color: #2176ff;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+/* activity section */
+.activities-panel {
+  padding: 100px 200px 50px 200px;
+}
+
+.activities-panel h2 {
+  font-size: 2.5rem;
+  text-align: center;
+  margin: 0;
+}
+
+.activity {
+  background-color: #2176ff;
+  font-size: 25px;
+  box-sizing: border-box;
+  width: 240px;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-family: "Gloria Hallelujah", cursive;
+  text-align: center;
+  margin: 5px;
+  display: inline-block;
+  padding-top: 100px;
+  position: relative;
+  left: 50px;
 }
