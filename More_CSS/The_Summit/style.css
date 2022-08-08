@@ -75,7 +75,7 @@ h2 {
 .experience {
   padding: 100px 200px 50px 200px;
   line-height: 2.5rem;
-  font-size: 18px;
+  font-size: 20px;
   position: relative;
   text-align: left;
   letter-spacing: 1px;
@@ -83,6 +83,7 @@ h2 {
   background-position: center top;
   background-size: cover;
   overflow-y: auto;
+  color: #736b92;
 }
 
 .experience h3 {
@@ -120,4 +121,17 @@ h2 {
   padding-top: 100px;
   position: relative;
   left: 50px;
+}
+
+/*  footer section */
+footer {
+  text-align: center;
+  background-color: #2176ff;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-size: 20px;
+  height: 50px;
+  padding: 50px 0;
+  letter-spacing: 2px;
 }
