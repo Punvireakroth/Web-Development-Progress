@@ -9,6 +9,10 @@ a {
   color: blue;
   cursor: default;
 }
+
+a:hover {
+  text-decoration: none;
+}
 .navigation {
   background-color: #fff;
   box-sizing: border-box;
@@ -26,6 +30,10 @@ a {
   padding: 20px;
   letter-spacing: 2px;
   font-size: 20px;
+}
+
+.nav-bar:hover {
+  color: #5495ff;
 }
 
 #title-nav {
@@ -69,6 +77,31 @@ h2 {
   color: #2176ff;
   bottom: 70px;
   font-weight: 400;
+}
+
+.btn {
+  border: 3px solid #2176ff;
+  padding: 20px;
+  border-radius: 5px;
+  color: #fff;
+  box-shadow: 0px 3px;
+  font-size: 20px;
+  font-family: sans-serif;
+}
+
+.btn:hover {
+  cursor: pointer;
+  color: #2176ff;
+  background-color: #fff;
+  transition: 0.5s ease-in-out;
+  opacity: 80%;
+}
+
+.btn:active {
+  margin-top: 5px;
+  color: #fff;
+  box-shadow: 0px 0px;
+  transition: 0s ease-in-out;
 }
 
 /* body section */
@@ -121,8 +154,21 @@ h2 {
   padding-top: 100px;
   position: relative;
   left: 50px;
+  border: 1px solid #2176ff;
+  cursor: pointer;
+  text-decoration: none;
 }
 
+.activity:hover {
+  background-color: #fff;
+  color: #5495ff;
+  transition: color 0.3s ease-in, background-color 0.3s ease-in;
+}
+
+.activity:active {
+  font-size: 40px;
+  transition: font-size 0.1s;
+}
 /*  footer section */
 footer {
   text-align: center;
