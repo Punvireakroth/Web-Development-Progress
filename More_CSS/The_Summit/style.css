@@ -1,0 +1,30 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.navigation {
+  background-color: #fff;
+  z-index: 10;
+  box-sizing: border-box;
+  width: 100%;
+  text-align: center;
+  position: fixed;
+  top: 0px;
+  border-bottom: 1px solid #ddd;
+  overflow-y: auto;
+}
+.nav-bar {
+  display: inline-block;
+  color: #736b92;
+  padding: 20px;
+  letter-spacing: 2px;
+  font-size: 20px;
+}
+
+#title-nav {
+  font-family: "Gloria Hallelujah", cursive;
+  font-size: xx-large;
+  color: #2176ff;
+}
