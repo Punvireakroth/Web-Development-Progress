@@ -1,0 +1,15 @@
+/* universal style */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Ruda", sans-serif;
+  color: #fff;
+  background-color: #1e1e24;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
