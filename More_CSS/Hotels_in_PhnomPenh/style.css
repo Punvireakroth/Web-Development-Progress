@@ -18,6 +18,10 @@ a:hover {
   color: lightgreen;
 }
 
+ul {
+  list-style-type: none;
+}
+
 .jumbotron {
   height: 30vh;
   background-image: url(https://images.unsplash.com/photo-1444882158336-bcfbd9298309?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
@@ -29,6 +33,7 @@ a:hover {
   top: 74px;
   margin: 0;
   font-size: 4rem;
+  letter-spacing: 2px;
 }
 
 .breadcrumb li {
@@ -42,4 +47,24 @@ a:hover {
 
 .breadcrumb li + li::before {
   content: ">";
+}
+
+/* Content */
+
+h2 {
+  color: #fff;
+  font-family: "Catamaran", sans-serif;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+h3 {
+  color: #d7263d;
+  font-family: "Ruda", sans-serif;
+  font-size: 32px;
+  margin: 0;
+  position: relative;
+  text-align: left;
+  text-transform: uppercase;
 }
