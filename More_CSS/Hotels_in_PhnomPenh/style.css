@@ -13,3 +13,33 @@ a {
   text-decoration: none;
   color: #fff;
 }
+
+a:hover {
+  color: lightgreen;
+}
+
+.jumbotron {
+  height: 30vh;
+  background-image: url(https://images.unsplash.com/photo-1444882158336-bcfbd9298309?dpr=1&auto=format&crop=entropy&fit=crop&w=1500&h=1000&q=80&cs=tinysrgb);
+  background-position: bottom center;
+}
+
+.jumbotron h1 {
+  position: relative;
+  top: 74px;
+  margin: 0;
+  font-size: 4rem;
+}
+
+.breadcrumb li {
+  margin: 10px 0;
+  padding: 30px 10px;
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  text-align: left;
+}
+
+.breadcrumb li + li::before {
+  content: ">";
+}
