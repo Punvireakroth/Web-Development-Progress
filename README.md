@@ -7,6 +7,11 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
 
 ### Some of the projects I did when I learn CSS concept
 
+#### [Hotels in PhnomPenh](https://punvireakroth.github.io/Hotels-in-PhnomPenh/)
+
+    -> I've learned Breadcrumb
+    -> Apply HTML and CSS concept
+
 #### [My Hometown](https://punvireakroth.github.io/My-Hometown/)
 
     -> I've learned typography
