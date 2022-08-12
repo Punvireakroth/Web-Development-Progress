@@ -12,6 +12,8 @@ All of the notes are in the `Notes.md` file in each folder. Examples, exercises,
     -> I've learned Breadcrumb
     -> Apply HTML and CSS concept
 
+![Alt text](https://github.com/Punvireakroth/Web-Development-Progress/blob/main/More_CSS/Media/hotels.png "Paint Suggestion")
+
 #### [My Hometown](https://punvireakroth.github.io/My-Hometown/)
 
     -> I've learned typography
