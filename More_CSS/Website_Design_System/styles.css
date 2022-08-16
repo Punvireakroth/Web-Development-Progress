@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  background: whitesmoke;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 1px;
+  color: #2c3639;
+}
+
+.color-section {
+  padding: 50px;
+  border: 1px solid #2c3639;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.colors {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
