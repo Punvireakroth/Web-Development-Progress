@@ -87,3 +87,11 @@ body {
 .source-code-pro .bold {
   font-weight: 700;
 }
+
+.nunito-sans {
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.nunito-sans .bold {
+  font-weight: 700;
+}
