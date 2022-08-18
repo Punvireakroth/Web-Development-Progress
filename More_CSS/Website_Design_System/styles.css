@@ -5,6 +5,18 @@ body {
   letter-spacing: 1px;
   color: #2c3639;
 }
+
+h1 {
+  font-size: 26px;
+  font-weight: 700;
+  font-family: "Nunito Sans";
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "poppins";
+}
 /* Title */
 .title {
   margin-left: 12%;
@@ -102,4 +114,17 @@ body {
 
 .poppins .bold {
   font-weight: 700;
+}
+
+/* Text style section */
+
+.text-style {
+  padding: 50px;
+  border: 1px solid #3f4e4f;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 2px 5px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 40px;
 }
