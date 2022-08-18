@@ -79,3 +79,11 @@ body {
   display: flex;
   justify-content: space-between;
 }
+
+.source-code-pro {
+  font-family: "Source Code Pro", monospace;
+}
+
+.source-code-pro .bold {
+  font-weight: 700;
+}
