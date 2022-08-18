@@ -95,3 +95,11 @@ body {
 .nunito-sans .bold {
   font-weight: 700;
 }
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+}
+
+.poppins .bold {
+  font-weight: 700;
+}
