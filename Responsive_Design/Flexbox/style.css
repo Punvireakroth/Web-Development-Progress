@@ -18,3 +18,17 @@ ul {
 h1 {
   font-size: 20px;
 }
+
+/*Sizing*/
+.container {
+  margin: 0 auto;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.main {
+  background-color: #ffc200;
+}
