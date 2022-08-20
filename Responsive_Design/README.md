@@ -32,3 +32,7 @@ In Column Grid it may change from 12 Grid to 4 grid base on the screen size.
 We should use whitespace to enhance the usabiltiy and prioritize the content.
 There are two type of whitespace which are passive and active
 we can use CSS properties such as `line-height` or `margin` to improve white space.
+
+# Flexbox
+
+## What is Flexbox
