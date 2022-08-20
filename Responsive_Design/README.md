@@ -17,3 +17,12 @@ Column are the verticle line it usaully consist of 12 and can be change througho
 ## Grid Rows
 
 The row is the horizontal line on the grid. It’s used to wrap the element in order to organize and order also allows to have whitespace.
+
+## Grid Gutters
+
+Gutters make up the negative space between columns.
+
+## Responsive Grid
+
+Responsive design is a set of techniques allow the content to change base on devices.
+In Column Grid it may change from 12 Grid to 4 grid base on the screen size.
