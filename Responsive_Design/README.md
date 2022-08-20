@@ -26,3 +26,9 @@ Gutters make up the negative space between columns.
 
 Responsive design is a set of techniques allow the content to change base on devices.
 In Column Grid it may change from 12 Grid to 4 grid base on the screen size.
+
+## Whitespace
+
+We should use whitespace to enhance the usabiltiy and prioritize the content.
+There are two type of whitespace which are passive and active
+we can use CSS properties such as `line-height` or `margin` to improve white space.
