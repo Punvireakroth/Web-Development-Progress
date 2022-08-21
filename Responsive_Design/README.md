@@ -42,3 +42,11 @@ Flexbox simplifies the positioning element.
 There are two main elements in flexbox which are flex container and flex item. flex container flex item.
 
 Once we set the element to flex we can adjust the layout by using some useful properties.
+
+## display flex
+
+any element can become a flex container by set display value to flex. It helps flex items’ size and position change based on the flex container.
+
+```
+display: flex;
+```
