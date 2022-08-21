@@ -36,3 +36,9 @@ we can use CSS properties such as `line-height` or `margin` to improve white spa
 # Flexbox
 
 ## What is Flexbox
+
+Flexbox simplifies the positioning element.
+
+There are two main elements in flexbox which are flex container and flex item. flex container flex item.
+
+Once we set the element to flex we can adjust the layout by using some useful properties.
