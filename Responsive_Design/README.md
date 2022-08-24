@@ -68,3 +68,15 @@ It takes value like `flex-end` which brings items to the right.
 - `center` — all items will be positioned in order, in the center of the parent container with no extra space before, between, or after them.
 - `space-around` — items will be positioned with equal space before and after each item, resulting in double the space between elements.
 - `space-between` — items will be positioned with equal space between them, but no extra space before the first or after the last elements.
+
+## Align-items
+
+When we use justify content we align items from left to right. but if we wanna align vertically we can use `align-items`
+
+These are some useful value
+
+- `flex-start` — all elements will be positioned at the top of the parent container.
+- `flex-end` — all elements will be positioned at the bottom of the parent container.
+- `center` — the center of all elements will be positioned halfway between the top and bottom of the parent container.
+- `baseline` — the bottom of the content of all items will be aligned with each other.
+- `stretch` — if possible, the items will stretch from top to bottom of the container (this is the default value; elements with a specified height will not stretch; elements with a minimum height or no height specified will stretch).
