@@ -1,46 +1,43 @@
 body {
-  border: 0;
-  margin: 0;
   font-family: "Roboto Mono", monospace;
 }
 
 h1 {
+  margin: 20px;
   text-align: center;
-  display: block;
   font-size: 18px;
 }
 
 .container {
   height: 150px;
-  width: 100%;
-  display: flex;
   background-color: whitesmoke;
-}
-
-.box {
-  height: 75px;
-  width: 100px;
-  background-color: dodgerblue;
-  border: 1px solid lightgrey;
-  display: inline-block;
-}
-
-#flexstart {
-  justify-content: flex-start;
-}
-
-#flexend {
-  justify-content: flex-end;
-}
-
-#center {
+  display: flex;
   justify-content: center;
 }
 
-#spacearound {
-  justify-content: space-around;
+.left,
+.center,
+.right {
+  height: 75px;
+  width: 125px;
+  background-color: dodgerblue;
+  border: 2px solid lightgrey;
 }
 
-#spacebetween {
-  justify-content: space-between;
+#baseline .center {
+  height: 100px;
+  width: 100px;
+  border: 5px solid turquoise;
+}
+
+#flexstart {
+}
+
+#flexend {
+}
+
+#center {
+}
+
+#baseline {
 }
