@@ -91,7 +91,7 @@ This flex-shink will the flex-items. Its defult value is 1 that why when the fle
 
 ## flex-basis
 
-In addition, to specify dimension with width and height we can adjust dimensions of the flex items using `flex-basis`
+In addition, to specify dimension with width and height we can adjust width dimensions of the flex items using `flex-basis`
 
 ```html
 <div class="container">
@@ -120,5 +120,19 @@ In addition, to specify dimension with width and height we can adjust dimensions
 .center {
   flex-grow: 2;
   flex-basis: 150px;
+}
+```
+
+## flex
+
+The `flex` property allows you to declare `flex-grow`, `flex-shrink`, and `flex-basis` all in one line.
+
+```css
+.big {
+  flex: 2 1 150px; // grow , shrink, basis
+}
+
+.small {
+  flex: 1 2 100px; // grow , shrink, basis
 }
 ```
