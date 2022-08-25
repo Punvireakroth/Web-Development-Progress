@@ -28,21 +28,25 @@ h2 {
 }
 
 .top.side {
+  flex-shrink: 2;
 }
 
 .top.center {
 }
 
 .middle.side {
+  flex-shrink: 0;
 }
 
 .middle.center {
 }
 
 .bottom.side {
+  flex-shrink: 0;
 }
 
 .bottom.center {
+  flex-shrink: 2;
 }
 
 #top,
