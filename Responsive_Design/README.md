@@ -136,3 +136,31 @@ The `flex` property allows you to declare `flex-grow`, `flex-shrink`, and `f
   flex: 1 2 100px; // grow , shrink, basis
 }
 ```
+
+## flex-wrap
+
+When the flex items are too big and we don’t want it to cramp in the container ( Make it go to the next line ) We can use `flex-wrap`
+
+`flex-wrap` take 3 values
+
+- wrap
+  - make flex items go to the next line when it too big
+- wrap-reverse
+  - The same functionality as `wrap` but the order of row will be reverse.
+- nowrap
+  - default value
+
+```css
+.container {
+  display: inline-flex;
+  flex-wrap: wrap;
+  width: 250px;
+}
+```
+
+```css
+.item {
+  width: 100px;
+  height: 100px;
+}
+```
