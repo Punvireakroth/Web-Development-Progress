@@ -80,3 +80,11 @@ These are some useful value
 - `center` — the center of all elements will be positioned halfway between the top and bottom of the parent container.
 - `baseline` — the bottom of the content of all items will be aligned with each other.
 - `stretch` — if possible, the items will stretch from top to bottom of the container (this is the default value; elements with a specified height will not stretch; elements with a minimum height or no height specified will stretch).
+
+## flex-grow
+
+When flex container is so big the flex items will not stretch by default. This is what flex-grow come to help.
+
+## flex-shrink
+
+This flex-shink will the flex-items. Its defult value is 1 that why when the flex container is too small it shrink down. Conversely, default value of flex-grow is 0 that why unless we specify it will grow.
