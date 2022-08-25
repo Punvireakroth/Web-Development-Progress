@@ -88,3 +88,37 @@ When flex container is so big the flex items will not stretch by default. This i
 ## flex-shrink
 
 This flex-shink will the flex-items. Its defult value is 1 that why when the flex container is too small it shrink down. Conversely, default value of flex-grow is 0 that why unless we specify it will grow.
+
+## flex-basis
+
+In addition, to specify dimension with width and height we can adjust dimensions of the flex items using `flex-basis`
+
+```html
+<div class="container">
+  <div class="side">
+    <h1>Left side!</h1>
+  </div>
+  <div class="center">
+    <h1>Center!</h1>
+  </div>
+  <div class="side">
+    <h1>Right side!</h1>
+  </div>
+</div>
+```
+
+```css
+.container {
+  display: flex;
+}
+
+.side {
+  flex-grow: 1;
+  flex-basis: 100px;
+}
+
+.center {
+  flex-grow: 2;
+  flex-basis: 150px;
+}
+```
