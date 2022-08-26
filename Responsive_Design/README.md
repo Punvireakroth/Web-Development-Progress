@@ -164,3 +164,43 @@ When the flex items are too big and we don’t want it to cramp in the container
   height: 100px;
 }
 ```
+
+## align-content
+
+- If we have multiple rows and we want to space rows from top to bottom we can use `align-content` It’s take the value of
+  - flex-start
+  - flex-end
+  - space-between
+  - space-around
+  - stretch
+
+## flex-direction
+
+flex containers have two axis **main-axis**(horizontal) **cross-axis**(verticle)
+
+The **main axis** is used to position flex items with the following properties:
+
+1. `justify-content`
+2. `flex-wrap`
+3. `flex-grow`
+4. `flex-shrink`
+
+The **cross axis** is used to position flex items with the following properties:
+
+1. `align-items`
+2. `align-content`
+
+If we apply `flex-direction` we can change it axis and it can take `row` or `column` values.
+
+It’s can take values such as
+
+1. `row`
+2. `column`
+3. `row-reverse`
+4. `column-reverse`
+
+## flex-flow
+
+`flex-flow` used to shorthand `flex-wrap` and `flex-directions`
+
+## Nested Flexboxes
