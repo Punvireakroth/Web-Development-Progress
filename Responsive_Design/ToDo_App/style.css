@@ -37,11 +37,14 @@ h2 {
 /* To Do Section */
 .week {
   display: inline-flex;
+  flex-grow: 3;
+  flex-direction: column;
 }
 
 .row {
   min-height: 200px;
   display: flex;
+  flex-wrap: wrap;
 }
 
 .square {
@@ -71,6 +74,7 @@ h2 {
 .reminders {
   display: inline-flex;
   background-color: khaki;
+  flex-grow: 2;
 }
 
 .reminders h3 {
