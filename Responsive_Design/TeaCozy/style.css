@@ -1,6 +1,8 @@
 body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
+  font-size: 22px;
+  background-color: ;
 }
 
 a {
@@ -23,4 +25,30 @@ a {
 li {
   display: inline;
   margin: 0 80px;
+}
+
+/* logo */
+
+.logo {
+  margin: 10px 30px;
+}
+
+.logo img {
+  height: 50px;
+}
+
+/* Mission */
+.img-container {
+  height: 400px;
+  /* background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg) center center no-repeat;
+  background-size: cover; */
+  background-color: yellow;
+}
+
+.our-mission {
+  display: flex;
+}
+
+.text {
+  align-items: center;
 }
