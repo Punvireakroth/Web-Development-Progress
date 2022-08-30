@@ -2,18 +2,31 @@ body {
   margin: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
-  background-color: ;
+  background-color: #483838;
+  text-align: center;
 }
 
 a {
   text-decoration: none;
   cursor: default;
 }
+main {
+  width: 95%;
+  margin: auto;
+}
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .header-section {
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
-  background-color: grey;
   width: 100%;
+  position: fixed;
+  z-index: 1;
+  background-color: #483838;
 }
 
 .nav-section {
@@ -25,6 +38,7 @@ a {
 li {
   display: inline;
   margin: 0 80px;
+  color: azure;
 }
 
 /* logo */
@@ -38,17 +52,18 @@ li {
 }
 
 /* Mission */
-.img-container {
-  height: 400px;
-  /* background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg) center center no-repeat;
-  background-size: cover; */
-  background-color: yellow;
+#mission {
+  height: 700px;
+  padding-top: 70px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.our-mission {
-  display: flex;
-}
-
-.text {
-  align-items: center;
+#mission .content {
+  margin: auto;
+  background-color: #483838;
+  color: azure;
+  width: 100%;
 }
