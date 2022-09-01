@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 0;
   font-family: "Montserrat", sans-serif;
   font-size: 22px;
   background-color: #483838;
@@ -71,4 +72,23 @@ li {
   background-color: #483838;
   color: azure;
   width: 100%;
+}
+
+/* Grid */
+
+.grids-container {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.grid {
+  width: 300px;
+  height: 200px;
+  margin: 20px, 30px;
 }
