@@ -222,3 +222,13 @@ Nested flexboxes is we position flex-container inside another flex-container
 11. `flex-direction` is used to specify the main and cross axes.
 12. `flex-flow` is used to specify `flex-wrap` and `flex-direction` in one declaration.
 13. Flex containers can be nested inside of each other by declaring `display: flex` or `display: inline-flex` for children of flex containers.
+
+# Grid
+
+## Intro
+
+Grid can use to layout entire web pages
+Why Grids
+
+- Flex-box positioning items one-dimensional
+- Grids positioning items two-demensional
