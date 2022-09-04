@@ -76,19 +76,21 @@ li {
 
 /* Grid */
 
-.grids-container {
-  width: 1000px;
-  display: flex;
-  flex-wrap: wrap;
+.tea-of-month {
+  width: 1500px;
+  height: 700px;
   margin: auto;
+  padding-top: 70px;
 }
 
-img {
-  max-width: 100%;
-  max-height: 100%;
-}
-.grid {
-  width: 300px;
+.grid img {
   height: 200px;
-  margin: 20px, 30px;
+  width: 300px;
+  margin: 10px;
+}
+
+figcaption {
+  color: azure;
+  text-align: center;
+  font-weight: 600;
 }
