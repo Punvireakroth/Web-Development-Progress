@@ -18,8 +18,13 @@ main {
 }
 
 h2,
-h4 {
+h4,
+p {
   color: azure;
+}
+
+p {
+  font-weight: 400;
 }
 .flex-container {
   display: flex;
@@ -93,4 +98,39 @@ figcaption {
   color: azure;
   text-align: center;
   font-weight: 600;
+}
+
+/* locations section */
+
+.locations {
+  padding-top: 70px;
+  margin-top: 90px;
+  height: 500px;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.locations h2 {
+  text-align: center;
+}
+.sub-location {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #483838;
+  width: 300px;
+  height: 300px;
+  margin-right: 40px;
+  padding-bottom: 20px;
+}
+
+/* Footer */
+
+footer {
+  padding-bottom: 40px;
+}
+.copyright {
+  color: azure;
+  text-align: left;
 }
