@@ -253,3 +253,21 @@ By defualt our grid has one column but we can modify it by using `grid-template-
   grid-template-columns: 100px 200px;
 }
 ```
+
+## Creating Rows
+
+It's use the property `grid-template-rows` the way it works is nearly the same as columns.
+
+## Grid Template
+
+It's the shorthand of grid rows and columns.
+
+```css
+.grid {
+  display: grid;
+  width: 1000px;
+  height: 500px;
+  /* row/col */
+  grid-template: 200px 300px / 20% 10% 70%;
+}
+```
