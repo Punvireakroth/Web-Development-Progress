@@ -232,3 +232,24 @@ Why Grids
 
 - Flex-box positioning items one-dimensional
 - Grids positioning items two-demensional
+
+## Create a grid
+
+To set up a grid you must have **grid container** and **grid items**
+
+You can use these properties
+
+- `grid` — for a block-level grid.
+- `inline-grid` — for an inline grid.
+
+## Creating Columns
+
+By defualt our grid has one column but we can modify it by using `grid-template-columns`
+
+```css
+.grid {
+  display: grid;
+  width: 500px;
+  grid-template-columns: 100px 200px;
+}
+```
