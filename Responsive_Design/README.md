@@ -271,3 +271,30 @@ It's the shorthand of grid rows and columns.
   grid-template: 200px 300px / 20% 10% 70%;
 }
 ```
+
+## Fraction
+
+We have seen responsive design units like % rem or em in Grid we have `fr` it uses to avoid overflowing the contents.
+
+## Repeat
+
+`repeat` is a function that allow us not write the rows or columns value manually.
+
+```css
+.grid {
+  display: grid;
+  width: 300px;
+  grid-template-columns: repeat(3, 100px);
+}
+```
+
+## minmax
+
+```css
+.grid {
+  display: grid;
+  grid-template-columns: 100px minmax(100px, 500px) 100px;
+}
+```
+
+The second column will always be between 100 and 500 pixels wide.
