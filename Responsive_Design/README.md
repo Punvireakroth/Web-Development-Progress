@@ -324,3 +324,7 @@ Shorthand
 ```
 
 ## Grid Items
+
+We'll see how we can do things like rowspan or colspan
+
+## Multiple Row Items
