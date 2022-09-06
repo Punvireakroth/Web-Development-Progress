@@ -298,3 +298,29 @@ We have seen responsive design units like % rem or em in Grid we have `fr` it us
 ```
 
 The second column will always be between 100 and 500 pixels wide.
+
+## Grid Gap
+
+The CSS properties `row-gap` and `column-gap` will put blank space between every row and column in the grid.
+
+```css
+.grid {
+  display: grid;
+  width: 320px;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 10px;
+}
+```
+
+Shorthand
+
+```css
+.grid {
+  display: grid;
+  width: 320px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px 10px;
+}
+```
+
+## Grid Items
