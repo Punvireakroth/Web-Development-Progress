@@ -339,3 +339,11 @@ We'll see how we can do things like rowspan or colspan
 ```
 
 ## Grid Row
+
+Grid row is just a shorthand of grid-row-start and grid-row-column
+
+```css
+.item {
+  grid-row: 4 / 6;
+}
+```
