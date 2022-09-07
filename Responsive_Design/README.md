@@ -347,3 +347,14 @@ Grid row is just a shorthand of grid-row-start and grid-row-column
   grid-row: 4 / 6;
 }
 ```
+
+## Grid Column
+
+It's work the same way as `grid-column-start`, `grid-column-end` and `grid-column`. But what specail about it is it can uses the `span`
+to know how many row it will take.
+
+```css
+.item {
+  grid-column: 4 / span 2; //begin in column four and take up two columns of space.
+}
+```
