@@ -328,3 +328,14 @@ Shorthand
 We'll see how we can do things like rowspan or colspan
 
 ## Multiple Row Items
+
+`grid-row-start` and `grid-row-end` use to expand a single grid.
+
+```css
+.item {
+  grid-row-start: 1;
+  grid-row-end: 3; // stop at row 2
+}
+```
+
+## Grid Row
