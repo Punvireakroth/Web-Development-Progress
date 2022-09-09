@@ -385,3 +385,25 @@ Grid Area will be the shorthand of 4 values.
 `grid-row-start` and `grid-row-end` makes elements span certain rows of the grid
 `grid-column-start` and `grid-column-end` makes elements span certain columns of the grid
 `grid-area` is a shorthand for grid-row-start, grid-column-start, grid-row-end, and grid-column-end, all in one line
+
+# More on Grids
+
+## Grid Template Areas
+
+`grid-template-area` use to name the section of the page along with property like `grid-row-start`, `grid-row-end`, `grid-column-start`,`grid-column-end`, and `grid-area`
+
+## Overlapping Elements
+
+## Justify Items
+
+There are two grid layout
+
+- Column(block) from top to bottom
+- Row(inline) from left to right
+
+When we use `justify-items` we can position stuff on the Row(inline) It’s accept these values
+
+- `start` — aligns grid items to the left side of the grid area
+- `end` — aligns grid items to the right side of the grid area
+- `center` — aligns grid items to the center of the grid area
+- `stretch` — stretches all items to fill the grid area
