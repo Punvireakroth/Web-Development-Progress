@@ -413,3 +413,16 @@ When we use `justify-items` we can position stuff on the column(block) It’s ac
 Conversely we use justify-content to position elements on the Row(inline). and it accept these values.
 
 `start, end, center, stretch, space-around, space-between, space-evenly`
+
+## Align Items
+
+position from top to bottom
+
+`align-items` accepts these values:
+
+- `start` — aligns grid items to the top side of the grid area
+- `end` — aligns grid items to the bottom side of the grid area
+- `center` — aligns grid items to the center of the grid area
+- `stretch` — stretches all items to fill the grid area
+
+## Align Content
