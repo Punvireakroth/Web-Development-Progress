@@ -401,9 +401,15 @@ There are two grid layout
 - Column(block) from top to bottom
 - Row(inline) from left to right
 
-When we use `justify-items` we can position stuff on the Row(inline) It’s accept these values
+When we use `justify-items` we can position stuff on the column(block) It’s accept these values
 
 - `start` — aligns grid items to the left side of the grid area
 - `end` — aligns grid items to the right side of the grid area
 - `center` — aligns grid items to the center of the grid area
 - `stretch` — stretches all items to fill the grid area
+
+## Justify Content
+
+Conversely we use justify-content to position elements on the Row(inline). and it accept these values.
+
+`start, end, center, stretch, space-around, space-between, space-evenly`
