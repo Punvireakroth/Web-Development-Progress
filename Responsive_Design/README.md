@@ -450,3 +450,9 @@ These two elements declare in grids items. It’s take these value.
 - `end` — positions grid items on the right side/bottom of the grid area
 - `center` — positions grid items on the center of the grid area
 - `stretch` — positions grid items to fill the grid area (default)
+
+## Implicit vs. Explicit Grid
+
+We’ve been working with explicit which we know the amount of grids. But in a case like in online shop we need to load results and don’t know exactly, for example, web dev decided to put 5 row 3 columns but the final elements turn out to be 30.
+
+_implicit_ grid takes over. The implicit grid is an algorithm built into the specification for CSS Grid that determines default behavior for the placement of elements when there are more than fit into the grid specified by the CSS.
