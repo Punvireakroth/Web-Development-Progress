@@ -16,6 +16,7 @@ main {
   align-items: stretch;
   align-content: center;
   grid-auto-rows: 500px;
+  grid-auto-flow: column;
 }
 
 h2 {
