@@ -456,3 +456,13 @@ These two elements declare in grids items. It’s take these value.
 We’ve been working with explicit which we know the amount of grids. But in a case like in online shop we need to load results and don’t know exactly, for example, web dev decided to put 5 row 3 columns but the final elements turn out to be 30.
 
 _implicit_ grid takes over. The implicit grid is an algorithm built into the specification for CSS Grid that determines default behavior for the placement of elements when there are more than fit into the grid specified by the CSS.
+
+## Grid Auto Flow
+
+grid-auto-flow specifies whether new elements should be added to rows or columns, and is declared on grid containers.
+
+grid-auto-flow accepts these values:
+
+row — specifies the new elements should fill rows from left to right and create new rows when there are too many elements (default)
+column — specifies the new elements should fill columns from top to bottom and create new columns when there are too many elements
+dense — this keyword invokes an algorithm that attempts to fill holes earlier in the grid layout if smaller elements are added
