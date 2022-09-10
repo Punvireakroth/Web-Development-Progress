@@ -437,3 +437,16 @@ It’s accept these values
 - `space-around` — includes an equal amount of space on each side of a grid element, resulting in double the amount of space between elements as there is before the first and after the last element
 - `space-between` — includes an equal amount of space between grid items and no space at either end
 - `space-evenly` — places an even amount of space between grid items and at either end
+
+## Justify Self and Align Self
+
+`justify-self` align items in the row and it overrides `justify-items`
+
+`align-self` align items in the column and it override `align-items`
+
+These two elements declare in grids items. It’s take these value.
+
+- `start` — positions grid items on the left side/top of the grid area
+- `end` — positions grid items on the right side/bottom of the grid area
+- `center` — positions grid items on the center of the grid area
+- `stretch` — positions grid items to fill the grid area (default)
