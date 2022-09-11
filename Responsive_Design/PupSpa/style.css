@@ -2,6 +2,8 @@ body {
   background-color: #fcfcfc;
   color: #db6363;
   text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 .grid {
