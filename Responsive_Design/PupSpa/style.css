@@ -1,0 +1,99 @@
+body {
+  background-color: #fcfcfc;
+  color: #db6363;
+  text-align: center;
+}
+
+.grid {
+}
+
+header {
+}
+
+.title {
+  margin: auto;
+  color: #dc6363;
+  font-family: Poppins;
+  font-size: 2em;
+  font-weight: 700;
+}
+
+.banner {
+  padding: 3%;
+  background-color: #db6363;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 3em;
+  font-weight: 300;
+  letter-spacing: 3.7px;
+}
+
+p,
+.banner-contents {
+  max-width: 80%;
+  margin: auto;
+}
+
+img {
+  height: 5em;
+  margin-left: 75px;
+}
+
+.about {
+  background-color: #f0f0f0;
+}
+
+.text {
+  color: #2f2d2d;
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.box {
+  background-color: #2f2f2f;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+.address {
+}
+
+.hours {
+}
+
+.call-us {
+}
+
+.icon {
+  height: 80px;
+  margin: auto;
+}
+
+.testimonial {
+  background-color: #f0f0f0;
+  color: #db6363;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: italic;
+  letter-spacing: 3.7px;
+}
+
+.one {
+}
+
+.two {
+}
+
+footer {
+  background-color: #db6363;
+  color: #ffffff;
+  font-family: Poppins;
+  font-size: 16px;
+  letter-spacing: 0.4px;
+}
