@@ -12,6 +12,8 @@ body {
 }
 
 header {
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
 
 .title {
@@ -30,6 +32,8 @@ header {
   font-size: 3em;
   font-weight: 300;
   letter-spacing: 3.7px;
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
 
 p,
@@ -45,6 +49,8 @@ img {
 
 .about {
   background-color: #f0f0f0;
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
 
 .text {
@@ -100,4 +106,6 @@ footer {
   font-family: Poppins;
   font-size: 16px;
   letter-spacing: 0.4px;
+  grid-column-start: 1;
+  grid-column-end: 7;
 }
