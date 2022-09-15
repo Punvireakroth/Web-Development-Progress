@@ -466,3 +466,12 @@ grid-auto-flow accepts these values:
 row — specifies the new elements should fill rows from left to right and create new rows when there are too many elements (default)
 column — specifies the new elements should fill columns from top to bottom and create new columns when there are too many elements
 dense — this keyword invokes an algorithm that attempts to fill holes earlier in the grid layout if smaller elements are added
+
+# Sizing Element
+
+## Relative Measurements
+
+We wanna make the content of the size change based on
+
+1. The size of other content on the website.
+2. The size of the screen the website is being viewed on.
