@@ -475,3 +475,9 @@ We wanna make the content of the size change based on
 
 1. The size of other content on the website.
 2. The size of the screen the website is being viewed on.
+
+## Em
+
+when we use em instead of pixel sites are more responsive.
+
+it is double the size of the text. ex 16px → 32px
