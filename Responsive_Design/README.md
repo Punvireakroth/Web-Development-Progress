@@ -485,3 +485,7 @@ it is double the size of the text. ex 16px → 32px
 ## Rem
 
 rem is similar to em but instead of comparing to parent size it is comparing to html defualt size.
+
+## Percentage
+
+To style non text element relative to parent we use %
