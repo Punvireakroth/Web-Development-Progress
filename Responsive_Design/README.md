@@ -481,3 +481,7 @@ We wanna make the content of the size change based on
 when we use em instead of pixel sites are more responsive.
 
 it is double the size of the text. ex 16px → 32px
+
+## Rem
+
+rem is similar to em but instead of comparing to parent size it is comparing to html defualt size.
