@@ -508,3 +508,7 @@ p {
 ## Height: Minimum and Maximum
 
 Work just like the width but it just height.
+
+## Scaling Images and Videos
+
+When we use max-height to 100% and width to auto when the images or video is larger than its container the images or video will be overflow and hidden.
