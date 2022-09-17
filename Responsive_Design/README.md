@@ -531,3 +531,27 @@ body {
   background-size: cover;
 }
 ```
+
+# Media Queries
+
+Responsive website can adapt and response to different screen size.
+
+## Viewport Meta Tag
+
+```css
+<meta name="viewport" content="width=device-width, initial-scale=1">
+```
+
+## Media Queries
+
+Media queries uses to trigger the CSS compiler to style difference CSS when reach a specific screen size.
+
+```css
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+```
+
+The code above apply the follow CSS style when the screen size is 480px or smaller.
