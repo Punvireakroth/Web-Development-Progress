@@ -489,3 +489,22 @@ rem is similar to em but instead of comparing to parent size it is comparing to 
 ## Percentage
 
 To style non text element relative to parent we use %
+
+## Percentages: Padding & Margin
+
+## Max-Width and Min-Width
+
+We can limit how wide our element by using
+
+`max-width` or `min-width`
+
+```css
+p {
+  min-width: 300px; // paragraph will not fall below 300px
+  max-width: 600px; // paragraph will not exceed above 600px
+}
+```
+
+## Height: Minimum and Maximum
+
+Work just like the width but it just height.
