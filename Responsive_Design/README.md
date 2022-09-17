@@ -522,3 +522,12 @@ When we use max-height to 100% and width to auto when the images or video is lar
 ```
 
 ## Scaling Images and Videos
+
+```css
+body {
+  background-image: url("#");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+```
