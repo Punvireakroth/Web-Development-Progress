@@ -3,17 +3,20 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 16px;
   margin: 0;
+  padding: 0;
   background-color: white;
 }
 
 .container {
-  max-width: 960px;
+  /* max-width: 960px; */
   margin: 0 auto;
+  width: 100%;
 }
 
 .main {
   height: 30rem;
   padding-top: 1rem;
+  background-image: url("https://content.codecademy.com/courses/freelance-1/unit-5/tsunami-coffee/images/bg-photo.png");
 }
 
 .main img {
@@ -35,6 +38,7 @@ ul {
 
 li {
   display: inline-block;
+  padding: 1rem 1.25rem;
 }
 
 .supporting,
@@ -51,6 +55,9 @@ li {
 }
 
 .supporting img {
+  height: 5%;
+  width: 5%;
+  margin-right: 5%;
 }
 
 .rating {
