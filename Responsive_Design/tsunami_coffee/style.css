@@ -71,6 +71,7 @@ li {
 }
 
 .rating h1 {
+  font-size: 2.5rem;
 }
 
 .gallery img {
@@ -90,6 +91,7 @@ li {
 }
 
 .location img {
+  width: 100%;
 }
 
 footer {
@@ -103,4 +105,32 @@ footer .container {
   justify-content: space-between;
   padding: 5em 0;
   color: white;
+}
+
+@media only screen and (max-width: 960px) {
+  .main {
+    padding-top: 0;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .supporting img {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  h1 {
+    font-size: 1rem;
+  }
+  .container img {
+    margin: 0;
+    display: block;
+  }
+  nav {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
 }
