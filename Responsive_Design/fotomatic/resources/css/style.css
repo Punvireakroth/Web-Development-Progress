@@ -3,6 +3,7 @@
 html {
   font-family: "Roboto", sans-serif;
   font-size: 16px;
+  padding: 0;
 }
 
 .main-content {
@@ -230,6 +231,9 @@ header .mobile {
   padding: 2rem;
   margin: 0px 1.25rem;
   background-color: white;
+  border-radius: 5px;
+  justify-content: center;
+  max-height: 110.05199306759098vh;
 }
 
 .feature .image-container {
@@ -239,6 +243,7 @@ header .mobile {
 }
 
 .feature h2 {
+  padding-top: 40px;
   padding-bottom: 0.5rem;
   font-size: 2.25rem;
   font-weight: bold;
@@ -310,6 +315,7 @@ header .mobile {
 @media only screen and (max-width: 760px) {
   #filters-section {
     padding: 1.5rem 0 0 0;
+    flex: 0;
   }
 
   #filters-section .content {
