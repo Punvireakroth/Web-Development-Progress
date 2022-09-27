@@ -41,3 +41,9 @@ utensils[3] = "Spoon";
 
 console.log(utensils);
 ```
+
+## The .length property
+
+- .length return the amount of elements in an array.
+
+## The .push() Method
