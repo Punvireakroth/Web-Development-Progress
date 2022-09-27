@@ -88,6 +88,7 @@ input {
   min-height: 700px;
   grid-template-rows: 20px, repeat(5, 100px);
   align-content: space-around;
+  grid-auto-rows: 100px;
 }
 
 .card-column h2 {
