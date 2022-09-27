@@ -1,15 +1,5 @@
-let condiments = ["Ketchup", "Mustard", "Soy Sauce", "Sriracha"];
+const chores = ["wash dishes", "do laundry", "take out trash"];
 
-const utensils = ["Fork", "Knife", "Chopsticks", "Spork"];
+chores.push("walk around", "read book");
 
-condiments[0] = "Mayo";
-
-console.log(condiments);
-
-condiments = ["Mayo"];
-
-console.log(condiments);
-
-utensils[3] = "Spoon";
-
-console.log(utensils);
+console.log(chores);
