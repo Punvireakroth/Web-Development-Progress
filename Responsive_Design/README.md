@@ -555,3 +555,5 @@ Media queries uses to trigger the CSS compiler to style difference CSS when reac
 ```
 
 The code above apply the follow CSS style when the screen size is 480px or smaller.
+
+## Range
