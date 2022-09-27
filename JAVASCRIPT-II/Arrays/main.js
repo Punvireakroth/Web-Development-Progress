@@ -1,3 +1,15 @@
-let whatMakeMeHappy = ["ReadJapanBook", "LookAtOldPhoto", "reviewOldMemory"];
+let condiments = ["Ketchup", "Mustard", "Soy Sauce", "Sriracha"];
 
-console.log(whatMakeMeHappy);
+const utensils = ["Fork", "Knife", "Chopsticks", "Spork"];
+
+condiments[0] = "Mayo";
+
+console.log(condiments);
+
+condiments = ["Mayo"];
+
+console.log(condiments);
+
+utensils[3] = "Spoon";
+
+console.log(utensils);
