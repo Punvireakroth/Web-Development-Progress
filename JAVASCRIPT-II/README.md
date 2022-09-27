@@ -47,3 +47,11 @@ console.log(utensils);
 - .length return the amount of elements in an array.
 
 ## The .push() Method
+
+```js
+const chores = ["wash dishes", "do laundry", "take out trash"];
+
+chores.push("walk around", "read book");
+
+console.log(chores);
+```
