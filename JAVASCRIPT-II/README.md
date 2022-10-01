@@ -56,12 +56,11 @@ chores.push("walk around", "read book");
 console.log(chores);
 ```
 
-## Length property
+## The .pop() Method
 
-`.length` will tell you how many items are in an array.
+We use .pop() to remove the last items in the list.
 
-```js
-const newYearsResolutions = ["Keep a journal", "Take a falconry class"];
+## More Array Methods
 
-console.log(newYearsResolutions.length);
-```
+Read about array methods more in the docs
+<a href="https://www.codecademy.com/resources/docs/javascript/arrays">JavaScript Arrays.</a>
