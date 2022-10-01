@@ -55,3 +55,13 @@ chores.push("walk around", "read book");
 
 console.log(chores);
 ```
+
+## Length property
+
+`.length` will tell you how many items are in an array.
+
+```js
+const newYearsResolutions = ["Keep a journal", "Take a falconry class"];
+
+console.log(newYearsResolutions.length);
+```
