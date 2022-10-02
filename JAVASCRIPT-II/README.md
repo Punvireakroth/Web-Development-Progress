@@ -64,3 +64,21 @@ We use .pop() to remove the last items in the list.
 
 Read about array methods more in the docs
 <a href="https://www.codecademy.com/resources/docs/javascript/arrays">JavaScript Arrays.</a>
+
+## Arrays with function
+
+We can mutated an array with function.
+
+```js
+const flowers = ["peony", "daffodil", "marigold"];
+
+function addFlower(arr) {
+  arr.push("lily");
+}
+
+addFlower(flowers);
+
+console.log(flowers); // Output: ['peony', 'daffodil', 'marigold', 'lily']
+```
+
+this concept explained as pass-by-reference since what we’re actually passing to the function is a reference to where the variable memory is stored and changing the memory.
