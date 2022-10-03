@@ -86,3 +86,11 @@ this concept explained as pass-by-reference since what we’re actually passing
 # Loops
 
 When we wanna repeat instruction over and over again we use loops.
+
+## The For Loop
+
+```js
+for (let i = 5; i < 11; i++) {
+  console.log(i);
+}
+```
