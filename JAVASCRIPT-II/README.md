@@ -82,3 +82,7 @@ console.log(flowers); // Output: ['peony', 'daffodil', 'marigold', 'lily']
 ```
 
 this concept explained as pass-by-reference since what we’re actually passing to the function is a reference to where the variable memory is stored and changing the memory.
+
+# Loops
+
+When we wanna repeat instruction over and over again we use loops.
