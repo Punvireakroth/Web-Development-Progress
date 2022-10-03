@@ -142,3 +142,15 @@ while (currentCard !== "spade") {
   console.log(currentCard);
 }
 ```
+
+## Do...While Statements
+
+```js
+let cupsOfSugarNeeded = 1;
+
+let cupsAdded = 0;
+
+do {
+  cupsAdded++;
+} while (cupsAdded < cupsOfSugarNeeded);
+```
