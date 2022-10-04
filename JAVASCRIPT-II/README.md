@@ -184,3 +184,12 @@ for (const bird of strangeBirds) {
   console.log(bird);
 }
 ```
+
+# Objects
+
+## Intro to Objects
+
+- A lot of things in JS are object
+- There are seven fundamental data in JS
+- Six of those are the primitive data types: string, number, boolean, null, undefined, and symbol. With the seventh type, objects, we open our code to more complex possibilities
+- JavaScript objects are containers storing related data and functionality.
