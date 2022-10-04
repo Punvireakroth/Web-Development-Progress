@@ -154,3 +154,7 @@ do {
   cupsAdded++;
 } while (cupsAdded < cupsOfSugarNeeded);
 ```
+
+## The break Keyword
+
+`break` use to stop the loops.
