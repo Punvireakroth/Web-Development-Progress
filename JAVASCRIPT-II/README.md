@@ -158,3 +158,29 @@ do {
 ## The break Keyword
 
 `break` use to stop the loops.
+
+```js
+const strangeBirds = ["Shoebill", "Cockatrice", "Basan", "Terrorbird", "Parotia", "Kakapo"];
+
+for (const bird of strangeBirds) {
+  if (bird === "Basan") {
+    break;
+  }
+  console.log(bird);
+}
+```
+
+## continue
+
+Used to skip one iteration of the loop.
+
+```js
+const strangeBirds = ["Shoebill", "Cockatrice", "Basan", "Cow", "Terrorbird", "Parotia", "Kakapo"];
+
+for (const bird of strangeBirds) {
+  if (bird === "Cow") {
+    continue;
+  }
+  console.log(bird);
+}
+```
