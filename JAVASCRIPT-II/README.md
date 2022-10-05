@@ -193,3 +193,17 @@ for (const bird of strangeBirds) {
 - There are seven fundamental data in JS
 - Six of those are the primitive data types: string, number, boolean, null, undefined, and symbol. With the seventh type, objects, we open our code to more complex possibilities
 - JavaScript objects are containers storing related data and functionality.
+
+## Creating Object Literals
+
+Obect store its key and value pair in { }
+
+```js
+// An object literal with two key-value pairs
+let spaceship = {
+  "Fuel Type": "diesel",
+  color: "silver",
+};
+```
+
+## Accessing Properties
