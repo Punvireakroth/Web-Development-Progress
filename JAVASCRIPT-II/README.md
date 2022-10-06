@@ -207,3 +207,30 @@ let spaceship = {
 ```
 
 ## Accessing Properties
+
+There are two way of accessing an object's property
+
+- dot notation
+
+```js
+let spaceship = {
+  homePlanet: "Earth",
+  color: "silver",
+};
+spaceship.homePlanet; // Returns 'Earth',
+spaceship.color; // Returns 'silver',
+```
+
+## Bracket Notation
+
+- Bracket notation
+
+`objectName[propertyName]`
+
+It's also useful with fucntion
+
+```js
+let returnAnyProp = (objectName, propName) => objectName[propName];
+
+returnAnyProp(spaceship, "homePlanet");
+```
