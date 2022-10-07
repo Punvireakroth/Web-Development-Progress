@@ -280,3 +280,45 @@ const alienShip = {
   },
 };
 ```
+
+## Nested Objects
+
+We can have object inside another object as a property .
+
+```js
+const spaceship = {
+  telescope: {
+    yearBuilt: 2018,
+    model: "91031-XLT",
+    focalLength: 2032,
+  },
+  crew: {
+    captain: {
+      name: "Sandra",
+      degree: "Computer Engineering",
+      encourageTeam() {
+        console.log("We got this!");
+      },
+    },
+  },
+  engine: {
+    model: "Nimbus2000",
+  },
+  nanoelectronics: {
+    computer: {
+      terabytes: 100,
+      monitors: "HD",
+    },
+    "back-up": {
+      battery: "Lithium",
+      terabytes: 50,
+    },
+  },
+};
+```
+
+to revoke
+
+```js
+spaceship.nanoelectronics["back-up"].battery; // Returns 'Lithium'
+```
