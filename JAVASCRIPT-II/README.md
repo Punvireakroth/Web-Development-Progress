@@ -256,3 +256,27 @@ spaceship.numEngines = 7;
 
 delete spaceship["Secret Mission"];
 ```
+
+## Methods
+
+Method in Object is what it does it like a fucntion in an Object
+
+- Normal syntax
+
+```js
+const alienShip = {
+  invade: function () {
+    console.log("Hello! We have come to dominate your planet. Instead of Earth, it shall be called New Xaculon.");
+  },
+};
+```
+
+- ES6
+
+```js
+const alienShip = {
+  invade() {
+    console.log("Hello! We have come to dominate your planet. Instead of Earth, it shall be called New Xaculon.");
+  },
+};
+```
