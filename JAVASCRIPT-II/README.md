@@ -234,3 +234,25 @@ let returnAnyProp = (objectName, propName) => objectName[propName];
 
 returnAnyProp(spaceship, "homePlanet");
 ```
+
+## Property Assignment
+
+- Object are mutable
+- we can use [ ] or . notation to change or update a value and key.
+
+```js
+let spaceship = {
+  "Fuel Type": "Turbo Fuel",
+  homePlanet: "Earth",
+  color: "silver",
+  "Secret Mission": "Discover life outside of Earth.",
+};
+
+// Write your code below
+
+spaceship.color = "glorious gold";
+
+spaceship.numEngines = 7;
+
+delete spaceship["Secret Mission"];
+```
