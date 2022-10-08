@@ -391,3 +391,35 @@ console.log(spaceship);
 
   */
 ```
+
+## Looping through Object
+
+We can iterate through Object using `for...in`
+
+```js
+let footBallTeam = {
+  crew: {
+    defender: {
+      name: "Jinit chan",
+      age: 19,
+    },
+    midfiel: {
+      name: "Hong Robea",
+      age: 20,
+    },
+    attacker: {
+      name: "VireakRoth",
+      age: 20,
+    },
+  },
+};
+
+for (let member in footBallTeam.crew) {
+  console.log(`${member}: ${footBallTeam.crew[member].name}`);
+}
+
+// output
+defender: Jinit chan
+midfiel: Hong Robea
+attacker: VireakRoth
+```
