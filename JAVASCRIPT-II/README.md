@@ -359,3 +359,35 @@ Before calling Pass By Reference Function -> a = 10 b = 20
 Inside Pass By Reference Function -> a = 20 b = 10
 After calling Pass By Reference Function -> a = 20 b = 10
 ```
+
+Another Example
+
+```js
+let spaceship = {
+  "Fuel Type": "Turbo Fuel",
+  homePlanet: "Earth",
+};
+
+// Write your code below
+let greenEnergy = (obj) => {
+  obj["Fuel Type"] = "avocado oil";
+};
+
+let remotelyDisable = (obj) => {
+  obj.disabled = true;
+};
+
+greenEnergy(spaceship);
+
+remotelyDisable(spaceship);
+
+console.log(spaceship);
+
+// Output
+/*
+{ 'Fuel Type': 'avocado oil',
+  homePlanet: 'Earth',
+  disabled: true }
+
+  */
+```
