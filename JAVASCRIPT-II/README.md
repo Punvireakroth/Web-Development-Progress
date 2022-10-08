@@ -322,3 +322,40 @@ to revoke
 ```js
 spaceship.nanoelectronics["back-up"].battery; // Returns 'Lithium'
 ```
+
+## Pass By Reference
+
+- When pass by reference , Function is called by directly passing the reference/address of the variable as an argument.
+- So the change in function my affect the original value.
+- parameters passed as an arguments does not create its own copy, it refers to the original value so changes made inside the function affect the original value.
+
+```js
+function PassbyReference(obj) {
+  let tmp = obj.a;
+  obj.a = obj.b;
+  obj.b = tmp;
+
+  console.log(`Inside Pass By Reference 
+        Function -> a = ${obj.a} b = ${obj.b}`);
+}
+
+let obj = {
+  a: 10,
+  b: 20,
+};
+console.log(`Before calling Pass By Reference 
+    Function -> a = ${obj.a} b = ${obj.b}`);
+
+PassbyReference(obj);
+
+console.log(`After calling Pass By Reference 
+    Function -> a = ${obj.a} b = ${obj.b}`);
+```
+
+Output
+
+```js
+Before calling Pass By Reference Function -> a = 10 b = 20
+Inside Pass By Reference Function -> a = 20 b = 10
+After calling Pass By Reference Function -> a = 20 b = 10
+```
