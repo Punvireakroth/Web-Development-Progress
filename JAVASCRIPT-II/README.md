@@ -479,3 +479,45 @@ Dan: Aerospace Engineering
 Clementine: Physics
 Shauna: Conservation Science
 ```
+
+# Advanced Objects
+
+## The this Keyword
+
+In Object we have properties (Variables) and method (functionallity).
+What if we want to use a property in the same object. The answer is it will lead to Reference error.
+
+```js
+const goat = {
+  dietType: "herbivore",
+  makeSound() {
+    console.log("baaa");
+  },
+  diet() {
+    console.log(dietType);
+  },
+};
+goat.diet();
+// Output will be "ReferenceError: dietType is not defined"
+```
+
+- That’s because inside the scope of the `.diet()`method, we don’t automatically have access to other properties of the `goat`
+   object.
+- But `this` keyword can help
+
+```js
+const goat = {
+  dietType: "herbivore",
+  makeSound() {
+    console.log("baaa");
+  },
+  diet() {
+    console.log(this.dietType);
+  },
+};
+
+goat.diet();
+// Output: herbivore
+```
+
+- By using this we’re accessing the goat object itself, and then the dietType property of goat by using property dot notation.
