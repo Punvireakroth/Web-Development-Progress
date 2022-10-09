@@ -521,3 +521,20 @@ goat.diet();
 ```
 
 - By using this we’re accessing the goat object itself, and then the dietType property of goat by using property dot notation.
+
+## Arrow Functions and this
+
+I understand from this that “We cannot use this keyword in arrow functions”
+
+```js
+const robot = {
+  energyLevel: 100,
+  checkEnergy() {
+    console.log(`Energy is currently at ${this.energyLevel}%.`);
+  },
+};
+
+robot.checkEnergy();
+```
+
+In the code above we cannot use ⇒ function with this keyword.
