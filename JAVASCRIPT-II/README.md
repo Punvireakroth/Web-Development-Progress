@@ -538,3 +538,29 @@ robot.checkEnergy();
 ```
 
 In the code above we cannot use ⇒ function with this keyword.
+
+## Getters
+
+It’s use to get and return a value of properties more than that it useful
+
+- Getters can perform an action on the data when getting a property.
+- Getters can return different values using conditionals.
+- In a getter, we can access the properties of the calling object using `this`.
+- The functionality of our code is easier for other developers to understand.
+
+```js
+const person = {
+  _firstName: "John",
+  _lastName: "Doe",
+  get fullName() {
+    if (this._firstName && this._lastName) {
+      return `${this._firstName} ${this._lastName}`;
+    } else {
+      return "Missing a first name or a last name.";
+    }
+  },
+};
+
+// To call the getter method:
+person.fullName; // 'John Doe'
+```
