@@ -584,3 +584,41 @@ person.age = 40;
 console.log(person._age); // Logs: 40
 person.age = "40"; // Logs: You must assign a number to age
 ```
+
+## Factory function
+
+When we want to create instances of object quickly we use factory functions . Factory function is a function that return an object and can be reuse to create multiple instances of an object.
+
+```js
+const footBallPlayerFactory = (name, age, energySource, catchPhrase) => {
+  return {
+    name: name,
+    age: age,
+    energySource: energySource,
+    scare() {
+      console.log(catchPhrase);
+    },
+  };
+};
+const pogba = footBallPlayerFactory("Pogba", 29, "ball control", "BOO!");
+ghost.scare(); // 'BOO!'
+```
+
+Another example
+
+```js
+let robotFactory = (model, mobile) => {
+  return {
+    model: model,
+    mobile: mobile,
+    beep() {
+      console.log("Beep Boop");
+    },
+  };
+};
+
+const tinCan = robotFactory("P-500", true);
+
+tinCan.beep();
+console.log(tinCan.model);
+```
