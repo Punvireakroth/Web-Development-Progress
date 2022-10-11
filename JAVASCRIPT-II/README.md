@@ -622,3 +622,27 @@ const tinCan = robotFactory("P-500", true);
 tinCan.beep();
 console.log(tinCan.model);
 ```
+
+## Property Value Shorthand
+
+Instead of do this
+
+```js
+const monsterFactory = (name, age) => {
+  return {
+    name: name,
+    age: age,
+  };
+};
+```
+
+You can do this
+
+```js
+const monsterFactory = (name, age) => {
+  return {
+    name,
+    age,
+  };
+};
+```
