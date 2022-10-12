@@ -646,3 +646,25 @@ const monsterFactory = (name, age) => {
   };
 };
 ```
+
+## Destructured Assignment
+
+When we want to extract key-values from object we can do the following.
+
+```js
+const vampire = {
+  name: "Dracula",
+  residence: "Transylvania",
+  preferences: {
+    day: "stay inside",
+    night: "satisfy appetite",
+  },
+};
+
+const { residence } = vampire;
+console.log(residence); // Prints 'Transylvania'
+
+// to extract nested value
+const { day } = vampire.preferences;
+console.log(day); // Prints 'stay inside'
+```
