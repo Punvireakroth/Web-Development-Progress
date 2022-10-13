@@ -690,3 +690,28 @@ const busy = announceThatIAmDoingImportantWork;
 
 busy(); // This function call barely takes any space!
 ```
+
+Notice that when we assign a function to a variable we do not need to specified ( ) we just assign a variable to the function name.
+
+## Functions as Parameters
+
+- Higher order function is a function that **accept other function as parameter** or **return a function** or **both.**
+- Call back function is a function as a parameter of another function.
+
+```js
+const addTwo = (num) => {
+  return num + 2;
+};
+
+const checkConsistentOutput = (func, val) => {
+  let checkA = val + 2;
+  let checkB = func(val);
+  if (checkA === checkB) {
+    return checkB;
+  } else {
+    return "inconsistent results";
+  }
+};
+
+console.log(checkConsistentOutput(addTwo, 2));
+```
