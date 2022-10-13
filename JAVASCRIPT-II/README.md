@@ -668,3 +668,25 @@ console.log(residence); // Prints 'Transylvania'
 const { day } = vampire.preferences;
 console.log(day); // Prints 'stay inside'
 ```
+
+# Higher order function
+
+## introduction
+
+- In the real-world we often abstract away and still understand thing for example like when we speak.
+- In computer world it different we need to give detail instruction
+- but in some case we can also abstract something as well
+
+## Function as data
+
+If a function with a very long name we surely don’t want to called it again and again with that name but instead what we can do is to assign it to a variable.
+
+```js
+const announceThatIAmDoingImportantWork = () => {
+  console.log("I’m doing very important work!");
+};
+
+const busy = announceThatIAmDoingImportantWork;
+
+busy(); // This function call barely takes any space!
+```
