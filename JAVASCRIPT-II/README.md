@@ -715,3 +715,17 @@ const checkConsistentOutput = (func, val) => {
 
 console.log(checkConsistentOutput(addTwo, 2));
 ```
+
+# Iterators
+
+Subplement to for loop to iterate through an array we also have iterator that is specail method we can iterate through the array.
+
+## forEach
+
+```js
+const fruits = ["mango", "papaya", "pineapple", "apple"];
+
+// Iterate over fruits below
+
+fruits.forEach((items) => console.log(`I want to eat a ${items}`));
+```
