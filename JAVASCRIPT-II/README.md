@@ -786,3 +786,37 @@ console.log(shortWords); // Output: ['chair', 'music', 'brick', 'pen', 'door'
 ```
 
 ## The .findIndex() Method
+
+`.findIndex()` will find the first location of the index in an array.
+
+```js
+const jumbledNums = [123, 25, 78, 5, 9];
+
+const lessThanTen = jumbledNums.findIndex((num) => {
+  return num < 10;
+});
+```
+
+If it can't find any it going to output -1
+
+Another example
+
+```js
+const animals = ["hippo", "tiger", "lion", "seal", "cheetah", "monkey", "salamander", "elephant"];
+
+const foundAnimal = animals.findIndex((index) => {
+  if (index === "elephant") {
+    return index;
+  }
+});
+
+console.log(foundAnimal);
+
+const startsWithS = animals.findIndex((index) => {
+  if (index[0] === "s") {
+    return index;
+  }
+});
+
+console.log(startsWithS);
+```
