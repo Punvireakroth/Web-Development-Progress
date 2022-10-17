@@ -820,3 +820,22 @@ const startsWithS = animals.findIndex((index) => {
 
 console.log(startsWithS);
 ```
+
+## The .reduce() Method
+
+Look at the example
+
+```js
+const newNumbers = [1, 3, 5, 7];
+
+const newSum = newNumbers.reduce((accumulator, currentValue) => {
+  console.log("The value of accumulator: ", accumulator);
+  console.log("The value of currentValue: ", currentValue);
+  return accumulator + currentValue;
+});
+console.log(newSum);
+```
+
+## Iterator Documentation
+
+<a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array">MDN</a>
