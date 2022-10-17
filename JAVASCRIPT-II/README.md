@@ -767,3 +767,22 @@ const smallNumbers = bigNumbers.map((number) => {
 
 console.log(smallNumbers); // [ 1, 2, 3, 4, 5 ]
 ```
+
+## The .filter() Method
+
+`.filter()` is also return an array but it return the element that already filtered. If the call back function return True it gonna return the array of that element.
+
+Example
+
+```js
+const words = ["chair", "music", "pillow", "brick", "pen", "door"];
+
+const shortWords = words.filter((word) => {
+  return word.length < 6;
+});
+
+console.log(words); // Output: ['chair', 'music', 'pillow', 'brick', 'pen', 'door'];
+console.log(shortWords); // Output: ['chair', 'music', 'brick', 'pen', 'door'
+```
+
+## The .findIndex() Method
