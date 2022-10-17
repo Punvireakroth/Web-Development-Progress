@@ -729,3 +729,41 @@ const fruits = ["mango", "papaya", "pineapple", "apple"];
 
 fruits.forEach((items) => console.log(`I want to eat a ${items}`));
 ```
+
+## .map() method
+
+.map() method work in similar way to forEach() the major different is it return an array back.
+
+```js
+const numbers = [1, 2, 3, 4, 5];
+
+const bigNumbers = numbers.map((number) => {
+  return number * 10;
+});
+
+console.log(numbers); // Output: [1, 2, 3, 4, 5]
+console.log(bigNumbers); // Output: [10, 20, 30, 40, 50]
+```
+
+Another example
+
+```js
+const animals = ["Hen", "elephant", "llama", "leopard", "ostrich", "Whale", "octopus", "rabbit", "lion", "dog"];
+let firstChar;
+// Create the secretMessage array below
+const secretMessage = animals.map((animal) => {
+  return animal[0];
+});
+
+console.log(secretMessage.join("")); // HelloWorld
+
+const bigNumbers = [100, 200, 300, 400, 500];
+
+// Create the smallNumbers array below
+
+const smallNumbers = bigNumbers.map((number) => {
+  return number / 100;
+});
+
+console.log(smallNumbers); // [ 1, 2, 3, 4, 5 ]
+```
