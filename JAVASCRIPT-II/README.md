@@ -846,3 +846,18 @@ console.log(newSum);
 - But don’t be discouraged by it even the season programming still confronts a lot of errors in their day-to-day life.
 - The more complex your code is the more bugs you are likely to face.
 - Finding bugs in software mean finding weaknesses and trying to fix them in a way to meet the standard.
+
+## Step to tackle the error
+
+**Dissect the Error**
+
+- There might be a lot error text shown when the error occor but being aware of where the important one is located is good.
+- Mostly it at the top of our error.
+
+**Is the Solution in the error**
+
+- Sometime compiler doesn’t point 100% correctly where the error was so you need to use your dev skill.
+
+**Search your error on the web search**
+
+- Include keywords and make erorr more gener
