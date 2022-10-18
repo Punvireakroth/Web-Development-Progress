@@ -839,3 +839,10 @@ console.log(newSum);
 ## Iterator Documentation
 
 <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array" target="_blank">MDN</a>
+
+# About Error
+
+- Yep, the red means danger or bad stuff happened, and also in code, it signifies that code has errors.
+- But don’t be discouraged by it even the season programming still confronts a lot of errors in their day-to-day life.
+- The more complex your code is the more bugs you are likely to face.
+- Finding bugs in software mean finding weaknesses and trying to fix them in a way to meet the standard.
