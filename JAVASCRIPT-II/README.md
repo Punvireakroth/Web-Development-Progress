@@ -873,3 +873,7 @@ Do this
 **Compare different use cases to yours**
 
 The result that we have been search may not exacly the same but there maybe some line of thier code similar to us that make it thrown the error.
+
+**Tweaking around your code**
+
+After solving our error successfully we can make changes to other way whether it is possible or not if it is you are just learned something new.
