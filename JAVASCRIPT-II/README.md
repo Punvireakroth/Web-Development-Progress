@@ -860,4 +860,14 @@ console.log(newSum);
 
 **Search your error on the web search**
 
-- Include keywords and make erorr more gener
+- Include keywords and make erorr more generic
+
+Instead of this
+
+`TypeError: students.filter is not a function`
+
+Do this
+
+`TypeError: object filter() is not a function JavaScript`
+
+**Compare different use cases to yours**
