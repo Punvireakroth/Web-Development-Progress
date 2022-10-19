@@ -871,3 +871,5 @@ Do this
 `TypeError: object filter() is not a function JavaScript`
 
 **Compare different use cases to yours**
+
+The result that we have been search may not exacly the same but there maybe some line of thier code similar to us that make it thrown the error.
