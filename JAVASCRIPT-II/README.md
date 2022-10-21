@@ -894,3 +894,7 @@ After solving our error successfully we can make changes to other way whether it
   3 - Answer:
   What is the description of the error in this stack trace?
   4 - Answer:
+
+## JavaScript Error Types
+
+- Read MDN 😂
