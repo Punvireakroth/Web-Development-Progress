@@ -882,3 +882,15 @@ After solving our error successfully we can make changes to other way whether it
 
 - Error is common in development.
 - We’ll learn how to debug in term of JavaScript code.
+
+## Error Stack Traces
+
+- After error was thrown to the console we need to answer these questions
+  From what file was this error thrown?
+  1 - Answer:
+  On what line of that file was this error thrown?
+  2 - Answer:
+  What type of error was thrown in this stack trace?
+  3 - Answer:
+  What is the description of the error in this stack trace?
+  4 - Answer:
