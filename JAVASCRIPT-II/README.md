@@ -877,3 +877,8 @@ The result that we have been search may not exacly the same but there maybe some
 **Tweaking around your code**
 
 After solving our error successfully we can make changes to other way whether it is possible or not if it is you are just learned something new.
+
+# Debug JS Code
+
+- Error is common in development.
+- We’ll learn how to debug in term of JavaScript code.
