@@ -902,3 +902,9 @@ After solving our error successfully we can make changes to other way whether it
 ## Trace the silence error
 
 We can use `console.log()` to print out whether this is what we expected or not?
+
+To use console log we can follow these steps:
+
+- Print out the varaible and argument to see whether it is as what we expected
+- Then if values are correct but still error we can move to the logic part
+- If we find the error solve those error.
