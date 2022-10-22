@@ -908,3 +908,5 @@ To use console log we can follow these steps:
 - Print out the varaible and argument to see whether it is as what we expected
 - Then if values are correct but still error we can move to the logic part
 - If we find the error solve those error.
+
+## Finding Documentation
