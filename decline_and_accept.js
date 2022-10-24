@@ -9,3 +9,13 @@ const declineEverything = (veggies) => {
 };
 
 declineEverything(veggies);
+
+const accept = (veg) => {
+  console.log(`Ok, I guess I will eat some ${veg}.`);
+};
+
+const acceptEverything = (veggies) => {
+  veggies.forEach(accept);
+};
+
+acceptEverything(veggies);
