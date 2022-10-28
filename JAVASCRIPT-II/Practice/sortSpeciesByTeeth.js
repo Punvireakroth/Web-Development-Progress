@@ -6,12 +6,20 @@ const speciesArray = [
 ];
 
 // Write your code here:
-
+let teethArr = [];
+// push the numTeeth value a new array
 const sortSpeciesByTeeth = (arr) => {
-  for (let i = 0; i < arr.length; i++) {
-    return arr[i];
-  }
+  arr.forEach((teeth) => {
+    teethArr.push(teeth.numTeeth);
+  });
+  teethArr.sort();
+  // sort the array of numTeeth value
+  arr.forEach((element, index, array) => {
+    element.numTeeth = teethArr[index];
+    console.log(element);
+  });
 };
+// speciesArray.numTeeth = teethArr[j];
 
 console.log(sortSpeciesByTeeth(speciesArray));
 
