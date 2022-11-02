@@ -14,10 +14,13 @@ const sortSpeciesByTeeth = (arr) => {
   });
   teethArr.sort();
   // sort the array of numTeeth value
+  let answerSortTeeth = [];
   arr.forEach((element, index, array) => {
-    element.numTeeth = teethArr[index];
-    console.log(element);
+    if (element.numTeeth === teethArr[index]) {
+      answerSortTeeth.push(array);
+    }
   });
+  return answerSortTeeth;
 };
 // speciesArray.numTeeth = teethArr[j];
 
