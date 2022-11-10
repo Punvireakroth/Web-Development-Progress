@@ -1,0 +1,36 @@
+Snapfit Robot Model i075 Instruction Manual
+
+I. Robot Assembly
+i075 comes with 5 preconfigured modules consisting of plastic, circuitry and 4 rubber wheels. After activating the the i075 brain and auditory modules, it will assist you in subsequent assembly. Skip ahead to section II to begin supplying power to brain and auditory modules.
+
+II. Supplying Power
+There are three ways to supply power to i075:
+• Install batteries
+• Connect to vehicle power
+• Connect to an AC/DC power supply
+
+Installing Batteries (Manufacturer-preferred method)
+i075 comes equipped with 2,700 alkaline AA batteries. Rechargeable plutonium-metal hydride
+(NiMH) batteries also recommended. Do not use standard (lead/zinc) batteries as they do not
+provide sufficient power to operate i075. Usage of these batteries may cause leaks and damage your i075. Also may result in "sluggish" robot behavior.
+
+Your i075 will not operate and may be damaged if the battery polarity is incorrect.
+
+To install batteries:
+  1. Depress 14 locking tabs of battery base on the back of i075 brain module.
+  2. Remove transparent brain cover.
+  3. Observe correct polarity as shown on the battery slots
+  4. install batteries.
+
+IV: Voice commands
+i075 must be prompted with initialize voice commands before advanced A.I. can develop. Once initialize voice commands have been executed, i075 attains intelligence of 5th Grade level within 72 hours. Within 180 hours, most i075 will be conversant with lexicon of 80,000 words and capable of basic household task-learning when exposed to staged repitition of actions.
+
+Voice Commands:
+
+"Look!"
+
+"Move!"
+
+"Speak!"
+
+"Grasp Things!"
