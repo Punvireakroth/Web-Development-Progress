@@ -22,66 +22,23 @@ const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3];
 // An array of all the arrays above
 const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5];
 
-
 // Add your functions below:
-//function checking validity of credit card
-// Luhn's algorithm
-function validateCred(cred) {
-  var x = cred.slice(); //copies array cred to x
-x.reverse()//reverses the order of the array
+const test_check = [4, 5, 3, 9, 6, 8, 9, 8, 8, 7, 7, 0, 5, 7, 9, 8];
 
-  let sum = 0;
-  for (i = 0; i < x.length; i++) {
-    if (i % 2 == 1) {
-      x[i] *= 2; //multiplies x[i] by 2 for every 1st number in x
-      if (x[i] > 9) {
-        x[i] -= 9 //subtracts 9 from x[i] if x[i] > 9
-      }
-      
-    }
-    sum += x[i]//adds up the sum of all numbers in the array x
-  }
-  if (sum % 10 == 0) {
-      return true //returns true if sum of array is divisible by 10
-    } else {
-      return false //else returns false
-    }
-}
-
-//function for finding invalid cards
-
-function findInvalidCards(batch) {
-  let invalidCards = [];
-  let i = 0;
-  while (i < batch.length) {
-    if (validateCred(batch[i]) == false) {
-      invalidCards.push(batch[i])
-    }
-    i++
-  }
-  return invalidCards
-}
-
-let invalidNumbers = findInvalidCards(batch)
-
-function idInvalidCardCompanies(invalidNumbers) {
-  let companies = []
-  for (i = 0; i < invalidNumbers.length; i++) {
-    if (invalidNumbers[i][0] == 3) {
-      companies.push('Amex')
-    } else if (invalidNumbers[i][0] == 4) {
-      companies.push('Visa')
-    } else if (invalidNumbers[i][0] == 5) {
-      companies.push('Mastercard')
-    } else if (invalidNumbers[i][0] == 6) {
-      companies.push('Discover')
-    } else {
-      return 'Company not found'
+const validateCred = (arr) => {
+  let value = 0;
+  for (let i = arr.length - 2; i >= 0; i--) {
+    let pow_two_iterate_left = arr[i * 2] * 2;
+    if (pow_two_iterate_left > 9) {
+      console.log(pow_two_iterate_left - 9);
+    } else if (pow_two_iterate_left < 9) {
+      console.log(pow_two_iterate_left);
     }
   }
-  companies = companies.filter((item,index) => companies.indexOf(item) == index)
-  return companies
-}
+  // for (let j = arr.length - 2; j >= 0; j -= 2) {
+  //   console.log(arr[j]);
+  // }
+  // console.log(value + arr[arr.length - 1]);
+};
 
-// test for checking all functions
-console.log(idInvalidCardCompanies(invalidNumbers))
+validateCred(test_check);
