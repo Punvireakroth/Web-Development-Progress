@@ -26,19 +26,18 @@ const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, inval
 const test_check = [4, 5, 3, 9, 6, 8, 9, 8, 8, 7, 7, 0, 5, 7, 9, 8];
 
 const validateCred = (arr) => {
-  let value = 0;
+  let pow_two_value = 0;
+  let odd_value = [];
   for (let i = arr.length - 2; i >= 0; i--) {
     let pow_two_iterate_left = arr[i * 2] * 2;
     if (pow_two_iterate_left > 9) {
-      console.log(pow_two_iterate_left - 9);
+      pow_two_value += pow_two_iterate_left - 9;
     } else if (pow_two_iterate_left < 9) {
-      console.log(pow_two_iterate_left);
+      pow_two_value += pow_two_iterate_left;
     }
+    // odd_value += arr[2 * i - 1];
   }
-  // for (let j = arr.length - 2; j >= 0; j -= 2) {
-  //   console.log(arr[j]);
-  // }
-  // console.log(value + arr[arr.length - 1]);
+  console.log(pow_two_value);
 };
 
 validateCred(test_check);
