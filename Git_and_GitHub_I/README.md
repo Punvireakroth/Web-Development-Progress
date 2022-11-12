@@ -83,3 +83,7 @@ git add file1 file2
 ```
 
 ## git reset I
+
+We can unstage the file from the staging area using
+
+`git reset HEAD filename`
