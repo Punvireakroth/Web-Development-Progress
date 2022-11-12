@@ -1,4 +1,4 @@
-Snapfit Robot Model i075 Instruction Manual
+Snapfit Robot Model i075 Instruction Automate
 
 I. Robot Assembly
 i075 comes with 5 preconfigured modules consisting of plastic, circuitry and 4 rubber wheels. After activating the the i075 brain and auditory modules, it will assist you in subsequent assembly. Skip ahead to section II to begin supplying power to brain and auditory modules.
