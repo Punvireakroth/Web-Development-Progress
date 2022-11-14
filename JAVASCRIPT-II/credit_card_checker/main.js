@@ -27,7 +27,8 @@ const test_check = [4, 5, 3, 9, 6, 8, 9, 8, 8, 7, 7, 0, 5, 7, 9, 8];
 
 const validateCred = (arr) => {
   let pow_two_value = 0;
-  let odd_value = [];
+  let odd_digit = [];
+  let total_odd_digit = 0;
   for (let i = arr.length - 2; i >= 0; i--) {
     let pow_two_iterate_left = arr[i * 2] * 2;
     if (pow_two_iterate_left > 9) {
@@ -35,9 +36,22 @@ const validateCred = (arr) => {
     } else if (pow_two_iterate_left < 9) {
       pow_two_value += pow_two_iterate_left;
     }
-    // odd_value += arr[2 * i - 1];
+    odd_digit.push(arr[2 * i - 1]);
   }
-  console.log(pow_two_value);
+  // filter all the undefine from the array
+  const pure_odd_digit = odd_digit.filter((odd_digit) => odd_digit !== undefined);
+  // add the odd element values in array
+  for (let j in pure_odd_digit) {
+    total_odd_digit += pure_odd_digit[j];
+  }
+  let luhn_sum = total_odd_digit + pow_two_value;
+  if (luhn_sum % 10 === 0) {
+    console.log("yes");
+    return true;
+  } else {
+    console.log("no");
+    return false;
+  }
 };
 
-validateCred(test_check);
+validateCred(mystery3);
