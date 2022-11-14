@@ -89,3 +89,11 @@ We can unstage the file from the staging area using
 `git reset HEAD filename`
 
 ## git reset II
+
+To retracing your step (commit) we can use
+
+```
+git reset commit_SHA
+```
+
+For example `git reset 5d69206`
