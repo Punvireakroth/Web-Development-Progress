@@ -97,3 +97,11 @@ git reset commit_SHA
 ```
 
 For example `git reset 5d69206`
+
+# Git Operations
+
+## git stash
+
+`git stash` will store work temporarily for later use in a hidden file. After you finish and ready to continue working on the file you have stashed you can use `git stash pop`.
+
+## git log
