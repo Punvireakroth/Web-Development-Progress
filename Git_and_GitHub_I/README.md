@@ -105,3 +105,11 @@ For example `git reset 5d69206`
 `git stash` will store work temporarily for later use in a hidden file. After you finish and ready to continue working on the file you have stashed you can use `git stash pop`.
 
 ## git log
+
+`git log --oneline` shows the list of commits in one line format.
+
+`git log -S "keyword"` displays a list of commits that contain the keyword in the message
+
+## Git commit amend
+
+`git commit --amend` is use to update the prevoius commit. This is useful when we have to change but don't want to create a new commit.
