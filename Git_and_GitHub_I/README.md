@@ -113,3 +113,13 @@ For example `git reset 5d69206`
 ## Git commit amend
 
 `git commit --amend` is use to update the prevoius commit. This is useful when we have to change but don't want to create a new commit.
+
+# GitHub
+
+Git is a development tool while GitHub is a service.
+
+Why GitHub ?
+
+- To show what you Learning/Create in repository
+- Tracking changes made to your code
+- offers a hosting service and tools to build test, and deploy code
