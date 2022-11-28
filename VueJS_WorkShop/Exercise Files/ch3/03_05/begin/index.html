@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Flash Card App</title>
+    </head>
+    <body>
+        <div id="app">
+            <h1 v-text="deckName"></h1>
+
+            <div @click="flipped = !flipped" class="card">
+                <h2 v-if="!flipped" v-text="front"></h2>
+                <div v-else v-html="back"></div>
+            </div>
+
+            <div class="navigation">
+                <button @click="move(-1)" type="button">&#8592;</button>
+
+                <button @click="move(1)" type="button">&#8594;</button>
+            </div>
+
+            <a :href="readMoreUrl">Read more</a>
+        </div>
+
+        <script src="data.js"></script>
+        <script src="https://unpkg.com/vue@3.0.7/dist/vue.global.js"></script>
+        <script>
+            const FlashCardApp = {
+                data() {
+                    return {
+                        deckName: 'Vue.js Fundamentals',
+                        cards,
+                        index: 0,
+                        flipped: false,
+                        readMoreUrl: 'https://v3.vuejs.org/guide'                        
+                    };
+                },
+                methods: {
+                    move(change) {
+                        if (this.cards[this.index + change]) {
+                            this.flipped = false;
+                            this.index += change;
+                        }
+                    }
+                },
+                computed: {
+                    front() {
+                        return this.cards[this.index].front;
+                    },
+                    back() {
+                        return this.cards[this.index].back;
+                    }
+                }
+            };
+
+            const app = Vue.createApp(FlashCardApp).mount('#app');
+        </script>
+    </body>
+</html>

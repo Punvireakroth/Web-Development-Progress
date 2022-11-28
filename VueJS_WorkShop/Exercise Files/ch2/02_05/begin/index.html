@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Flash Card App</title>
+    </head>
+    <body>
+
+        <div id="app">
+            <h1>Deck Settings</h1>
+
+            <form method="post" action="">
+                <div>
+                    <label for="name">Name: </label>
+                    <input v-model.trim="deckName" type="text" id="name" name="name"> ({{ deckName.length }} characters)
+                </div>
+
+                <div>
+                    <label for="description">Description: </label>
+                    <textarea v-model.lazy="deckDescription" id="description" name="description"></textarea>
+                    ({{ 200 - deckDescription.length }} left)
+                </div>
+
+                <div class="options">
+                    <div>
+                        <input v-model="options" true-value="on" false-value="off" type="checkbox" id="reverse" value="reverse">
+                        <label for="reverse">Include reverse cards</label>
+                    </div>
+
+                    <div>
+                        <input v-model="options" type="checkbox" id="time_limit" value="time_limit">
+                        <label for="time_limit">Use time limit</label>
+                    </div>
+
+                    <div>
+                        <input v-model="options" type="checkbox" id="reminders" value="reminders">
+                        <label for="reminders">Enable reminders</label>
+                    </div>           
+
+                    <fieldset class="leech-action">
+                        <legend>Leech action</legend>
+                        <div>
+                            <input v-model="leech" type="radio" id="tag" name="leech" value="tag">
+                            <label for="tag">tag</label>
+                        </div>
+                        <div>
+                            <input v-model="leech" type="radio" id="suspend" name="leech" value="suspend">
+                            <label for="suspend">suspend</label>
+                        </div>
+                    </fieldset>
+                </div>
+
+                <div class="category">
+                    <label for="category">Category:</label>
+                    <select v-model.number="categoryId" name="category" id="category">
+                        <option value="">Select</option>
+                        <option value="1">Foreign Language</option>
+                        <option value="2">History</option>
+                        <option value="3">Biology</option>
+                        <option value="4">Geography</option>
+                        <option value="5">Law</option>
+                        <option value="6">Programming</option>
+                    </select>
+                </div>
+
+                <button @click.prevent="submit" type="submit">Create</button>
+            </form>
+        </div>
+
+        <script src="https://unpkg.com/vue@3.0.7/dist/vue.global.js"></script>
+        <script>
+            const FlashCardApp = {
+                data() {
+                    return {
+                        deckName: 'Vue.js Fundamentals',
+                        deckDescription: 'Core concepts and directives for working with Vue.js',
+                        options: [],
+                        leech: 'tag',
+                        categoryId: ''
+                    };
+                },
+                methods: {
+                    submit() {
+                        alert('submitting...');
+                    }
+                }
+            };
+
+            const app = Vue.createApp(FlashCardApp).mount('#app');
+        </script>
+    </body>
+</html>

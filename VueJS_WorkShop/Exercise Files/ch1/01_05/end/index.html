@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Flash Card App</title>
+    </head>
+    <body>
+        <div id="app">
+            <h1 v-text="deckName"></h1>
+
+            <div class="user-input">
+                Type something: <input type="text" v-model="userInput">
+            </div>
+
+            <div class="card">
+                <h2 v-text="userInput == 'flip' ? '' : cards[0].front"></h2>
+                <div v-html="userInput == 'flip' ? cards[0].back : ''"></div>
+            </div>
+
+            <a :href="readMoreUrl">read more</a>
+        </div>
+
+        <script src="data.js"></script>
+        <script src="https://unpkg.com/vue@3.0.7/dist/vue.global.js"></script>
+        <script>
+            const FlashCardApp = {
+                data() {
+                    return {
+                        deckName: 'Vue.js Fundamentals',
+                        cards,
+                        flipped: false,
+                        readMoreUrl: 'https://v3.vuejs.org/guide',
+                        userInput: 'default'
+                    };
+                }
+            };
+
+            const app = Vue.createApp(FlashCardApp).mount('#app');
+        </script>
+    </body>
+</html>

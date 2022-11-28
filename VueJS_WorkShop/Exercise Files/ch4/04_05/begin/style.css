@@ -1,0 +1,161 @@
+body {
+    background-color: #0077b5;
+    color: #ffffff;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    margin: 80px auto;
+    font-size: 42px;
+    text-align: center;
+    min-height: 49px;
+}
+
+.card {
+    background: #ffffff;
+    color: #495057;
+    box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.8), 0 4px 4px 0 rgba(0, 0, 0, 0.64), 0 4px 12px 0 rgba(0, 0, 0, 0.48);
+    border-radius: 3px;
+    width: 50%;
+    height: 500px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.card h2 {
+    font-size: 38px;
+    text-align: center;
+    padding-top: 231px;
+}
+
+.card > div {
+    font-size: 24px;
+    text-align: center;
+    margin: 0 40px;
+    padding-top: 240px;
+}
+
+#app > a {
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+    color: #ffffff;
+}
+
+.navigation {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.user-input {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+[v-cloak] { display: none }
+
+.score {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.score button {
+    width: 200px;
+    cursor: pointer;
+}
+
+.again {
+    background-color: #F6D55C;
+}
+
+.done {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+button[type="submit"] {
+    width: 150px;
+    border-radius: 5px;
+    margin-left: 105px;
+}
+
+input[type="text"] {
+    width: 275px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding-left: 5px;
+}
+
+textarea {
+    width: 275px;
+    height: 150px;
+    border-radius: 5px;
+    font-size: 20px;
+    vertical-align: middle;
+    padding-left: 5px;
+}
+
+form div {
+    margin-bottom: 20px;
+}
+
+.options {
+    padding-left: 100px;
+}
+
+.options label {
+    display: block;
+    width: auto;
+}
+
+.leech-action {
+    margin-top: 15px;
+    width: 50%;
+}
+
+.leech-action label {
+    display: inline;
+}
+
+.category {
+    margin-top: 10px;
+}
+
+select {
+    height: 40px;
+    width: 275px;
+    font-size: 12px;
+}
+
+p {
+    text-align: center;
+}

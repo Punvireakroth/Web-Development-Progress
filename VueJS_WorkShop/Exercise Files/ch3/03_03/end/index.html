@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Flash Card App</title>
+    </head>
+    <body>
+
+        <div id="app" v-cloak>
+            <h1>Card Manager</h1>
+
+            <div v-for="(card, index) in cards" class="card-pair">
+                <div v-if="editIndex == index" class="card">
+                    <textarea @keydown.enter="editIndex = -1" v-model="card.front"></textarea>
+                </div>
+                <div v-else @click="editIndex = index" class="card" v-text="card.front"></div>
+                <div class="card" v-html="card.back"></div>
+            </div>
+        </div>
+
+        <script src="data.js"></script>
+        <script src="https://unpkg.com/vue@3.0.7/dist/vue.global.js"></script>
+        <script>
+            const FlashCardApp = {
+                data() {
+                    return {
+                        cards,
+                        editIndex: -1
+                    };
+                },
+            };
+
+            const app = Vue.createApp(FlashCardApp).mount('#app');
+        </script>
+    </body>
+</html>

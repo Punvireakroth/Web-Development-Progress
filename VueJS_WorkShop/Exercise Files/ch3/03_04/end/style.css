@@ -1,0 +1,88 @@
+body {
+    background-color: #0077b5;
+    color: #ffffff;
+    font-family:  Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    margin: 80px auto;
+    font-size: 42px;
+    text-align: center;
+    min-height: 49px;
+}
+
+.card {
+    background: #ffffff;
+    color: #495057;
+    box-shadow: 0 8px 4px -4px rgba(0, 0, 0, 0.8), 0 4px 4px 0 rgba(0, 0, 0, 0.64), 0 4px 12px 0 rgba(0, 0, 0, 0.48);
+    border-radius: 3px;
+    cursor: pointer;
+    width: 300px;
+    height: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+
+.card h2 {
+    font-size: 38px;
+    text-align: center;
+    padding-top: 231px;
+}
+
+.read-more {
+    text-align: center;
+    margin: 20px auto;
+}
+
+.read-more a {
+    color: #ffffff;
+}
+
+.user-input {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 20px;
+}
+
+input {
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+button {
+    margin: 0 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+[v-cloak] { display: none }
+
+.card-manager {
+    width: 400px;
+    display: flex; flex-wrap:wrap; width: 600px; margin: 0 auto; justify-content:center;
+}
+
+.card-manager .card {
+    height: 150px;
+}
+
+.card-manager .card p {
+    font-size: 12px !important;
+    margin: 0;
+    padding-top: 0;
+}
+
+textarea {
+    width: 300px;
+    height: 90px;
+}
+
+.card-pair {
+    display: flex;
+    justify-content: center;
+}
