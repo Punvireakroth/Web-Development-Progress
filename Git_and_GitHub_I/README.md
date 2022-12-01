@@ -123,3 +123,11 @@ Why GitHub ?
 - To show what you Learning/Create in repository
 - Tracking changes made to your code
 - offers a hosting service and tools to build test, and deploy code
+
+# GitHub Flow
+
+- Create a branch
+- Commit changes
+- Create a pull request
+- Review pull request
+- Merge and delete branch
