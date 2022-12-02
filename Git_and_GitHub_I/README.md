@@ -161,3 +161,28 @@ These are best practice for reviewer
 ## Delete Branches 
 
 Once the code is merged it good to keep things organize. Thus it is a good idea to delete branches that already close which mean the code on that branches is already marged.
+
+# Markdown
+
+- Markdown provide you way to document and show what your project is about in a nice visaul way
+- It's eventially converted to HTML
+
+To make h1 we use == under the text to make h2 we use -- under the text.
+You can also use # symbols to produce heading as well.
+
+```
+My Todo List
+============
+ 
+At the end of this **week**, I plan to:
+ 
+1. Learn Markdown
+2. Write Markdown
+3. Share a Markdown note
+ 
+My favorite quote is:
+> If you didn't get it the first time
+> Do not despair
+> Try and try again
+> ~ Anonymous
+```
