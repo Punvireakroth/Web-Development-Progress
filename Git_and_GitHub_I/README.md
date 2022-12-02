@@ -138,3 +138,10 @@ When we're working with a team there a lot of people so what do we do when we wa
 Git allow you to create `branche` which mean each member can work on their code and does not affect the main branche. What is the main branche you may ask. It's essentially where all the bug free and clean code go to ultimately or we can say it is the working version of a project and contains the production code.
 
 We need to consider the descriptive and understable branche name e.g vireakroth_feature_dashboard_notifications. This includes the author, branch type, and short branch description. Some company may name their branche which ticket name as the project management tool they using.
+
+## Create pull request
+
+When you want to get your code into the main branch you first need to create a pull request. This means you are in the process of reviewing or protentially make changes of the code. 
+When you do the pull request make sure to
+- Give enough detials in other to make rewiewer easy to understand what you did
+- Don't pull request after a huge changes
