@@ -145,3 +145,15 @@ When you want to get your code into the main branch you first need to create a p
 When you do the pull request make sure to
 - Give enough detials in other to make rewiewer easy to understand what you did
 - Don't pull request after a huge changes
+
+## Review and Merging a Pull request
+
+As a reviewer you need to review and approve(merge) code to the main branch. you can click on the plus button to give comment and each line of the pull request.
+
+These are best practice for reviewer 
+
+- Don’t only comment on what should be changed, but why it should be changed. Feel free to provide resources to make your point.
+
+- Be as clear as possible with your comments and make sure to be clear as to what to modify.
+
+- Look at the bigger picture and try to spot potential errors. Would the submitted code produce any obstacles if the project scales?
