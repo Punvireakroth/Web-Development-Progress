@@ -157,3 +157,7 @@ These are best practice for reviewer
 - Be as clear as possible with your comments and make sure to be clear as to what to modify.
 
 - Look at the bigger picture and try to spot potential errors. Would the submitted code produce any obstacles if the project scales?
+
+## Delete Branches 
+
+Once the code is merged it good to keep things organize. Thus it is a good idea to delete branches that already close which mean the code on that branches is already marged.
