@@ -51,34 +51,21 @@ const validateCred = (array) => {
 
   x.reverse();
 
-  let evenList = [];
-  let oddList = [];
-
-
-  for (let i = 0; i < x.length; i++) {
-    // select the event digit of the card
-    let evenDigit = x[2 * i - 1] * 2;
-    // select the odd digit of the card
-    let oddDigit = x[2 * i];
-    // if even digit of the card greater than 9 substract it by 9
-    if(evenDigit !== NaN && evenDigit > 9){
-      evenDigit = evenDigit - 9;
-    }
-
-
-
-    console.log(evenDigit);
-    // // console.log(oddDigit);
-    // evenList.push(evenDigit);
-    // oddList.push(oddDigit);
-
-
-
-    // console.log(evenList);
-    // console.log("----------------");
-    // console.log(oddList);
-  }
+ 
   
+  let doubleOddDigit
+  for (let i = 0; i < x.length; i++) {
+    if(i % 2 !== 0){
+      doubleOddDigit = x[i] * 2;
+      if(doubleOddDigit > 9){
+        doubleOddDigit = doubleOddDigit - 9;
+      }
+      console.log(doubleOddDigit);
+    }
+   
+  }
+
+
 
   // Return True when valid Cred
 
