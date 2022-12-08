@@ -51,25 +51,34 @@ const validateCred = (array) => {
 
   x.reverse();
 
- 
-  
-  let doubleOddDigit
+  let doubleOddDigit;
+  let sumOddDigit = 0;
+  let sumEvenDigit = 0;
   for (let i = 0; i < x.length; i++) {
-    if(i % 2 !== 0){
+    if (i % 2 !== 0) {
       doubleOddDigit = x[i] * 2;
-      if(doubleOddDigit > 9){
+      // if that odd digit that have been doubled greater than 9 minus it by 9
+      if (doubleOddDigit > 9) {
         doubleOddDigit = doubleOddDigit - 9;
       }
-      console.log(doubleOddDigit);
+      sumOddDigit += doubleOddDigit;
+      // for the even digit
+    } else if (i % 2 === 0) {
+      sumEvenDigit += x[i];
     }
-   
   }
-
-
-
-  // Return True when valid Cred
-
-  // Return False when invalid Cred
+  // Check if Card Number Valid or not
+  let sum = sumEvenDigit + sumOddDigit;
+  console.log(sum);
+  console.log('-----------');
+  if (sum % 10 == 0) {
+    // Return True when valid Cred
+    console.log('true');
+  } else {
+    // Return False when invalid Cred
+    console.log('false');
+  }
 };
 
-validateCred(testArray);
+// Function call
+validateCred(invalid3);
