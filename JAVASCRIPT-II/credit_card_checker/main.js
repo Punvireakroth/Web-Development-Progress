@@ -20,38 +20,69 @@ const mystery4 = [4, 9, 2, 9, 8, 7, 7, 1, 6, 9, 2, 1, 7, 0, 9, 3];
 const mystery5 = [4, 9, 1, 3, 5, 4, 0, 4, 6, 3, 0, 7, 2, 5, 2, 3];
 
 // An array of all the arrays above
-const batch = [valid1, valid2, valid3, valid4, valid5, invalid1, invalid2, invalid3, invalid4, invalid5, mystery1, mystery2, mystery3, mystery4, mystery5];
+const batch = [
+  valid1,
+  valid2,
+  valid3,
+  valid4,
+  valid5,
+  invalid1,
+  invalid2,
+  invalid3,
+  invalid4,
+  invalid5,
+  mystery1,
+  mystery2,
+  mystery3,
+  mystery4,
+  mystery5,
+];
 
-// Add your functions below:
-const test_check = [4, 5, 3, 9, 6, 8, 9, 8, 8, 7, 7, 0, 5, 7, 9, 8];
+//Function to check wheter the card is valid or not
+//Use Lunh Algorithm
 
-const validateCred = (arr) => {
-  let pow_two_value = 0;
-  let odd_digit = [];
-  let total_odd_digit = 0;
-  for (let i = arr.length - 2; i >= 0; i--) {
-    let pow_two_iterate_left = arr[i * 2] * 2;
-    if (pow_two_iterate_left > 9) {
-      pow_two_value += pow_two_iterate_left - 9;
-    } else if (pow_two_iterate_left < 9) {
-      pow_two_value += pow_two_iterate_left;
+let testArray = [4, 5, 3, 9, 6, 8, 9, 8, 8, 7, 7, 0, 5, 7, 9, 8];
+
+const validateCred = (array) => {
+  // slice the hug chunk of array
+  let x = array.slice();
+
+  // reverse the chunked array
+
+  x.reverse();
+
+  let evenList = [];
+  let oddList = [];
+
+
+  for (let i = 0; i < x.length; i++) {
+    // select the event digit of the card
+    let evenDigit = x[2 * i - 1] * 2;
+    // select the odd digit of the card
+    let oddDigit = x[2 * i];
+    // if even digit of the card greater than 9 substract it by 9
+    if(evenDigit !== NaN && evenDigit > 9){
+      evenDigit = evenDigit - 9;
     }
-    odd_digit.push(arr[2 * i - 1]);
+
+
+
+    console.log(evenDigit);
+    // // console.log(oddDigit);
+    // evenList.push(evenDigit);
+    // oddList.push(oddDigit);
+
+
+
+    // console.log(evenList);
+    // console.log("----------------");
+    // console.log(oddList);
   }
-  // filter all the undefine from the array
-  const pure_odd_digit = odd_digit.filter((odd_digit) => odd_digit !== undefined);
-  // add the odd element values in array
-  for (let j in pure_odd_digit) {
-    total_odd_digit += pure_odd_digit[j];
-  }
-  let luhn_sum = total_odd_digit + pow_two_value;
-  if (luhn_sum % 10 === 0) {
-    console.log("yes");
-    return true;
-  } else {
-    console.log("no");
-    return false;
-  }
+  
+
+  // Return True when valid Cred
+
+  // Return False when invalid Cred
 };
 
-validateCred(mystery3);
+validateCred(testArray);
