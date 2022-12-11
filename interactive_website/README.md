@@ -22,3 +22,7 @@ It's use to link to external JS code or CDN.
 
 HTML parser does not load the HTML element until it finish running the script file.
 JS script file are run sequentially.
+
+### Defer attribute
+
+Defer attrubute tell the script to run after HTML successfully parsed which avoid show load time.
