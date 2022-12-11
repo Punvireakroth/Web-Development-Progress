@@ -17,3 +17,8 @@ script tag us to encapsulate the JavaScript file
 ### The src attribute
 
 It's use to link to external JS code or CDN.
+
+### How are script loaded?
+
+HTML parser does not load the HTML element until it finish running the script file.
+JS script file are run sequentially.
