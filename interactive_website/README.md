@@ -26,3 +26,9 @@ JS script file are run sequentially.
 ### Defer attribute
 
 Defer attrubute tell the script to run after HTML successfully parsed which avoid show load time.
+
+`<script src="example.js" defer></script>`
+
+### Async attribute
+
+Unlike defer async doesn't wait until the entire page are parsed what it does is it immediately execute after it has been downloaded.
