@@ -50,3 +50,8 @@ Unlike defer async doesn't wait until the entire page are parsed what it does is
 
 ### The DOM as a tree structure
 We may be familiar with the family tree in DOM is also same the top is called root representing the document of HTML and the descendants are the HTML tags. 
+
+### Parent Child Relationships in the DOM
+
+- The parent node are ancestor of another node.
+- The child node are the descendant of another node.
