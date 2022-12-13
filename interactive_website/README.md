@@ -55,3 +55,7 @@ We may be familiar with the family tree in DOM is also same the top is called ro
 
 - The parent node are ancestor of another node.
 - The child node are the descendant of another node.
+
+### Nodes and Elements in the DOM
+
+In DOM there are `element` node and `text` node.
