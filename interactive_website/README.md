@@ -63,3 +63,9 @@ In DOM there are `element` node and `text` node.
 ### Attributes of Element Node
 
 Like in HTML document element node in DOM allow us to access its attribute to modify stuff as we like.
+
+## JavaScript and the DOM
+
+### The Document Keyword
+
+`document` allow you to access the root of the DOM and open us to access another HTML tag or attribute.
