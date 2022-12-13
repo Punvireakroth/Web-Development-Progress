@@ -81,3 +81,35 @@ document.body.innerHTML = '<h2>This is a heading</h2>';
 ```
 
 ### Select and Modify Elements
+
+DOM allows us to access the element, and attribute of the HTML document thus it means that we can change the attribute and properties of that element.
+
+```jsx
+document.body.innerHTML = 'The cat loves the dog.';
+// also
+document.body.innerHTML = '<h2>This is a heading</h2>';
+```
+
+### Select and Modify Elements
+
+If we wanna access something besides the body we can apply CSS selector as well(tag, id, class)
+
+`.querySelector()` allow to access the first match element as a string.
+
+e.g
+
+```jsx
+document.querySelector('p');
+```
+
+beside querySelector there are also .getElementById() , .getElementsByClassName() and .getElementsByTagName() which its two can take the array element instead of one element
+
+e.g
+```js
+// Set first element of .student class as 'Not yet registered'
+document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
+ 
+// Set second <li> tag as 'Cedric Diggory'
+document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;`
+
+```
