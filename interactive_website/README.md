@@ -69,3 +69,13 @@ Like in HTML document element node in DOM allow us to access its attribute to mo
 ### The Document Keyword
 
 `document` allow you to access the root of the DOM and open us to access another HTML tag or attribute.
+
+### Tweak an Element
+
+DOM allow us to access to element, attribute of the HTML docment thus it means that we can change the attribute, properties of that elements.
+
+```js
+document.body.innerHTML = 'The cat loves the dog.';
+// also
+document.body.innerHTML = '<h2>This is a heading</h2>'; 
+```
