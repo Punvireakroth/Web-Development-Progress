@@ -59,3 +59,7 @@ We may be familiar with the family tree in DOM is also same the top is called ro
 ### Nodes and Elements in the DOM
 
 In DOM there are `element` node and `text` node.
+
+### Attributes of Element Node
+
+Like in HTML document element node in DOM allow us to access its attribute to modify stuff as we like.
