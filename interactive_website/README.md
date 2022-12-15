@@ -162,3 +162,32 @@ document.body.appendChild(paragraph);
 ```
 
 The above code we insert the paragraph(p) to our body element
+
+### Remove or Hide an Element
+
+- We can use `.removeChild()` to remove an element. We also can use .hidden = true to hide an element.
+
+### Add Click Interactivity
+
+We can add interactivity to DOM by inserting a function into an element.
+
+`.onclick` use to trigger the function to run when the user clicks on the element.
+
+```js
+let element = document.querySelector('button');
+ 
+element.onclick = function() { 
+  element.style.backgroundColor = 'blue' 
+};
+```
+We also can
+
+```js
+let element = document.querySelector('button');
+ 
+function turnBlue() {
+   element.style.backgroundColor = 'blue';
+}
+ 
+element.onclick = turnBlue;
+```
