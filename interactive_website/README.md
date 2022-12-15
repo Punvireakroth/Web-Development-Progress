@@ -125,3 +125,40 @@ blueElement.style.backgroundColor = 'blue';
 Unlike in CSS we use - for properties like `background-color`
 
 but instead in JS we use camelcase.
+
+### Traversing the DOM
+We’re going to learn `.children` and `.parentNode`  
+
+Let’s see the example
+
+`HTML`
+```js
+<ul id='groceries'>
+  <li id='must-have'>Toilet Paper</li>
+  <li>Apples</li>
+  <li>Chocolate</li>
+  <li>Dumplings</li>
+</ul>
+```
+`JavaScript`
+```js
+let parentElement = document.getElementById('must-have').parentNode; // returns <ul> element
+let childElements = document.getElementById('groceries').children; // returns an array of <li> elements
+```
+### Create and Insert Elements
+Besides tweaking, we also can create elements using DOM as well. Then we can insert it into our HTML document as the child of some parent elements.
+
+We use this `.createElement()` to create a new element
+
+```js
+let paragraph = document.createElement('p');
+paragraph.id = 'info'; 
+paragraph.innerHTML = 'The text inside the paragraph';
+```
+After creating we can insert our element into the document so
+
+```jsx
+document.body.appendChild(paragraph);
+```
+
+The above code we insert the paragraph(p) to our body element
