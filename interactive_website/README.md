@@ -113,3 +113,15 @@ document.getElementsByClassName('student')[0].innerHTML = 'Not yet registered';
 document.getElementsByTagName('li')[1].innerHTML = 'Cedric Diggory`;`
 
 ```
+
+### Style an Element
+`.style` Property allows changing the inline style of the HTML tag
+
+```js
+let blueElement = document.querySelector('.blue');
+blueElement.style.backgroundColor = 'blue';
+```
+
+Unlike in CSS we use - for properties like `background-color`
+
+but instead in JS we use camelcase.
