@@ -190,4 +190,14 @@ function turnBlue() {
 }
  
 element.onclick = turnBlue;
+
 ```
+
+## DOM Event with JavaScript
+
+### What is Event?
+When there are manipulate or interactions on a page that are called events it can trigger the functionality.
+
+- When clicking button
+- When Swap images
+- When Drag and drop…
