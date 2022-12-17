@@ -201,3 +201,10 @@ When there are manipulate or interactions on a page that are called events it ca
 - When clicking button
 - When Swap images
 - When Drag and drop…
+
+### "Firing" Events
+
+
+When event trigger on a DOM elements and event handler function can be created to run a response.
+
+### Event Handler Registration
