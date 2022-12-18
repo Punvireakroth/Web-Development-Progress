@@ -209,3 +209,4 @@ When event trigger on a DOM elements and event handler function can be created t
 
 ### Event Handler Registration
 
+When we want DOM to listen to a specific event we use `.addEventListener()` method
