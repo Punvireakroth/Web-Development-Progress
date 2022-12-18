@@ -1,7 +1,37 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 #more-info {
     display: none;
 }
 
+
 #info, #more-info {
     background-color: #fd4d3f;
+    width: 500px;
+    height: 200px;
+    color: #fff;
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+#more-info {
+    background-color:#009EFF;
+}
+#read-more {
+    padding: 10px;
+    border: none;
+    background-color: #6df0c2;
+    border-radius: 5px;
+    margin-top: 50px;
+    width: 100px;
 }
