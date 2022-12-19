@@ -69,16 +69,27 @@ const validateCred = (array) => {
   }
   // Check if Card Number Valid or not
   let sum = sumEvenDigit + sumOddDigit;
-  console.log(sum);
-  console.log('-----------');
   if (sum % 10 == 0) {
     // Return True when valid Cred
-    console.log('true');
+    console.log("true");
   } else {
     // Return False when invalid Cred
-    console.log('false');
+    console.log("false");
+  }
+};
+
+// function for finding the invalid cards in a list of array
+let invalidCreditCard;
+let listInvalidCard = [];
+const findInvalidCards = (nestedArray) => {
+  // loop through the nested array
+  for (let j = 0; j < nestedArray.length; j++) {
+    if(validateCred(nestedArray) == 'false'){
+      listInvalidCard.push(nestedArray[j]);
+    }
   }
 };
 
 // Function call
-validateCred(invalid3);
+// validateCred(invalid3);
+findInvalidCards(batch);
