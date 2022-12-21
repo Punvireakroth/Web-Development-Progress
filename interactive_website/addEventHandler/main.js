@@ -15,4 +15,3 @@ let hide = function() {
 view.addEventListener('click', open);
 close.addEventListener('click', hide);
 
-// Write your code here
