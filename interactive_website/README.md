@@ -210,3 +210,13 @@ When event trigger on a DOM elements and event handler function can be created t
 ### Event Handler Registration
 
 When we want DOM to listen to a specific event we use `.addEventListener()` method
+
+### Adding Event Handler
+
+- There are alternaltive ways than `.addEventHandler`
+- We can use .onEvent where Event can be `click` …
+- e.g `onclick`
+```js
+eventTarget.onclick = eventHandlerFunction;
+```
+Normallly people use `.addEventListener` than `.onevent` because `.addEventListener` can add multiple event handler functions  
