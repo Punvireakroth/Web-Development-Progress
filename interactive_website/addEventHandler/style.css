@@ -1,43 +1,40 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Nunito';
-  }
-  #container{
-    background: #141c3a;
-    margin: 0;
-    display: block;
-    float: left;
-    width: 100vw;
-    height: 100vh;
-  }
-  #view-button{
-    width: 380px;
-    height: 50px;
-    font-size: 24px;
-    border: none;
-    display: block;
-    background-color: #6df0c2;
-    margin: 0 auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    cursor: pointer;
-    font-family: 'Nunito';
-  }
-  #codey{
-    display: none;
-    width: 200px;
-    margin: 0 auto;
-  }
-  #close-button{
-    width: 380px;
-    height: 50px;
-    font-size: 24px;
-    border: none;
-    display: none;
-    background-color: #fd4d3f;
-    margin: 0 auto;
-    margin-top: 20px;
-    cursor: pointer;
-    font-family: 'Nunito';
-  }
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #F9F9F9;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+#view {
+  margin: 0 auto; 
+  width: 400px;
+  padding: 10px;
+  margin-top: 100px;
+  background-color: #ADE792;
+  border-radius: 4px;
+  border-style: none;
+  color: #ffff;
+}
+
+#close {
+  margin: 0 auto;
+  width: 400px;
+  padding: 10px;
+  margin-top: 100px;
+  background-color: #D23369;
+  border-radius: 4px;
+  border-style: none;
+  color: #fff;
+  display: none;
+}
+
+
+#icon {
+  margin: 0 auto;
+  display: none;
+}
