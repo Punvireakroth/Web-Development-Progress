@@ -1,21 +1,28 @@
+let view = document.getElementById('view-button');
+let close = document.getElementById('close-button');
+let codey = document.getElementById('codey');
 
-let view = document.getElementById('view');
-let close = document.getElementById('close');
-let icon = document.getElementById('icon');
-
-
-let open = () => {
-  icon.style.display = 'block';
+let open = function() {
+  codey.style.display = 'block';
   close.style.display = 'block';
-}
+};
 
-
-let closeView = () => {
+let hide = function() {
+  codey.style.display = 'none';
   close.style.display = 'none';
-  icon.style.display = 'none';
-
-}
+};
 
 
 view.addEventListener('click', open);
-close.addEventListener('click', closeView);
+close.addEventListener('click', hide);
+
+// Write your code here
+let textChange = () => {
+  view.innerHTML = "Hello, World!";
+}
+
+let textReturn = () => {
+  view.innerHTML = "View";
+}
+
+view.onClick = textChange;
