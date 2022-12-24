@@ -25,4 +25,6 @@ let textReturn = () => {
   view.innerHTML = "View";
 }
 
-view.onClick = textChange;
+view.onclick = textChange;
+
+close.onclick = textReturn;
