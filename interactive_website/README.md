@@ -245,3 +245,14 @@ Also important to know that some event need
 - Some not (load)
 
 This MDN docs is a [reference](https://developer.mozilla.org/en-US/docs/Web/Events)
+
+### Mouse Events
+
+There are more mouse event than `click` , `wheel` There are more like
+
+- `mousedown`
+- `mouseup`
+- `mouseover`
+- `mouseout`
+
+We can use common sense to predict it action by its name.
