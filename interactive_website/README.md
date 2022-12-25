@@ -228,3 +228,9 @@ The `.removeEventListener()` is meant to reverse `.addEventListener()`
 ```js
 eventTarget.removeEventListener('click', eventHandlerFunction);
 ```
+
+### Event Object Properties
+
+When the event is trigger the ******event object****** can passed as argument  to the event handler function.
+
+“It’s useful to store information about the event target, the event type, associcated listeners in properties.” *Codecademy*
