@@ -220,3 +220,11 @@ When we want DOM to listen to a specific event we use `.addEventListener()` meth
 eventTarget.onclick = eventHandlerFunction;
 ```
 Normallly people use `.addEventListener` than `.onevent` because `.addEventListener` can add multiple event handler functions  
+
+### removeEventListener
+
+The `.removeEventListener()` is meant to reverse `.addEventListener()` 
+
+```js
+eventTarget.removeEventListener('click', eventHandlerFunction);
+```
