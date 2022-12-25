@@ -234,3 +234,14 @@ eventTarget.removeEventListener('click', eventHandlerFunction);
 When the event is trigger the ******event object****** can passed as argument  to the event handler function.
 
 “It’s useful to store information about the event target, the event type, associcated listeners in properties.” *Codecademy*
+
+### Event Types
+
+There are more event than just `click`
+
+Also important to know that some event need 
+
+- Human interation
+- Some not (load)
+
+This MDN docs is a [reference](https://developer.mozilla.org/en-US/docs/Web/Events)
