@@ -81,3 +81,9 @@ class Dog {
  
 const halley = new Dog('Doggie');
 ```
+
+### Inheritance
+
+- When we want to share the properties or methods from a class it is called inheritance.
+- SupperClass is the main class we want to share properties or methods.
+- The SubClass is a class that gets the properties or methods from the main class.
