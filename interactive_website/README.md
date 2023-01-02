@@ -409,3 +409,35 @@ label we have for that match the id in the input
   <input type="submit" value="Send">
 </form>
 ```
+
+## Form Validation
+
+- This are the client-side html form validation
+
+### Require
+
+It's require keyword
+
+### Min and Max
+
+It's set the limitation
+
+```html
+<form action="/example.html" method="POST">
+  <label for="guests">Enter # of guests:</label>
+  <input id="guests" name="guests" type="number" min="1" max="4">
+  <input type="submit" value="Submit">
+</form>
+```
+
+### Check Text Length
+
+Check the limitation of text length with `minlength` and `maxlength`.
+
+```html
+<form action="/example.html" method="POST">
+  <label for="summary">Summarize your feelings in less than 250 characters</label>
+  <input id="summary" name="summary" type="text" minlength="5" maxlength="250" required>
+  <input type="submit" value="Submit">
+</form>
+```
