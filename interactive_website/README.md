@@ -272,3 +272,7 @@ We can use common sense to predict it action by its name.
 
 - Validate from the front-end side is a good idea because as users we don't want to wait long.
 - We can use JS to validate by just using vanilla JS or using its library.
+
+### Back-end Validation
+
+- With just client-side is not enough because it's there are potential risks (easy to bypass). If users close JS in their browser.
