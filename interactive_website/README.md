@@ -282,7 +282,7 @@ We can use common sense to predict it action by its name.
 - The action attribute determines where the information is sent.
 - The method attribute is assigned a HTTP verb that is included in the HTTP request.
 
-## Text input
+### Text input
 
 ```html
 <form action="/example.html" method="POST">
@@ -291,3 +291,57 @@ We can use common sense to predict it action by its name.
 ```
 
 "first-text-field=important details" is sent to /example.html because the value of the nameattribute is "first-text-field" and the value of value is "important details".
+
+### Label
+
+label we have for that match the id in the input
+
+```html
+<form action="/example.html" method="POST">
+  <label for="meal">What do you want to eat?</label>
+  <br>
+  <input type="text" name="food" id="meal">
+</form>
+```
+### Password
+
+```html
+<form>
+  <label for="user-password">Password: </label>
+  <input type="password" id="user-password" name="user-password">
+</form>
+```
+
+### Number
+
+```html
+ <section class="patties">
+          <label for="amount">How many patties would you like?</label>
+	        <!--Add your code below-->
+					<input type="number" id="amount" step="1" name="amount">
+          
+  </section>
+```
+
+### Range
+```html
+<form>
+  <label for="volume"> Volume Control</label>
+  <input id="volume" name="volume" type="range" min="0" max="100" step="1">
+</form>
+```
+
+### Checkbox
+```html
+<form>
+  <p>Choose your pizza toppings:</p>
+  <label for="cheese">Extra cheese</label>
+  <input id="cheese" name="topping" type="checkbox" value="cheese">
+  <br>
+  <label for="pepperoni">Pepperoni</label>
+  <input id="pepperoni" name="topping" type="checkbox" value="pepperoni">
+  <br>
+  <label for="anchovy">Anchovy</label>
+  <input id="anchovy" name="topping" type="checkbox" value="anchovy">
+</form>
+```
