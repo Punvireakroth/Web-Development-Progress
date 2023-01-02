@@ -256,3 +256,19 @@ There are more mouse event than `click` , `wheel` There are more like
 - `mouseout`
 
 We can use common sense to predict it action by its name.
+
+## Form
+
+### Regular Expressions
+
+- Humans can interpret the String.
+- Computers have to use something called **regular expressions** aka regex or regexp. It's basically a sequence of characters representing a pattern.
+
+### Client-side Validation: HTML
+
+- HTML have some validation feature to validate user input. e.g `require`
+
+### Client-side Validation: JavaScript
+
+- Validate from the front-end side is a good idea because as users we don't want to wait long.
+- We can use JS to validate by just using vanilla JS or using its library.
