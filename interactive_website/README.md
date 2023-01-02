@@ -276,3 +276,18 @@ We can use common sense to predict it action by its name.
 ### Back-end Validation
 
 - With just client-side is not enough because it's there are potential risks (easy to bypass). If users close JS in their browser.
+
+## HTML Form
+
+- The action attribute determines where the information is sent.
+- The method attribute is assigned a HTTP verb that is included in the HTTP request.
+
+## Text input
+
+```html
+<form action="/example.html" method="POST">
+  <input type="text" name="first-text-field" value="already pre-filled">
+</form>
+```
+
+"first-text-field=important details" is sent to /example.html because the value of the nameattribute is "first-text-field" and the value of value is "important details".
