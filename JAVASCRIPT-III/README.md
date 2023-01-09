@@ -87,3 +87,24 @@ const halley = new Dog('Doggie');
 - When we want to share the properties or methods from a class it is called inheritance.
 - SupperClass is the main class we want to share properties or methods.
 - The SubClass is a class that gets the properties or methods from the main class.
+
+### Static
+
+- static use when we want to directly call a method from its class. It means we do not have to instantiate the object from the class first in other to call the method.
+
+```js
+class Animal {
+  constructor(name) {
+    this._name = name;
+    this._behavior = 0;
+  }
+ 
+  static generateName() {
+    const names = ['Angel', 'Spike', 'Buffy', 'Willow', 'Tara'];
+    const randomNumber = Math.floor(Math.random()*5);
+    return names[randomNumber];
+  }
+}
+
+console.log(Animal.generateName()); // returns a name
+```
