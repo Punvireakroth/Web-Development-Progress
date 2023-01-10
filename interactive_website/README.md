@@ -441,3 +441,17 @@ Check the limitation of text length with `minlength` and `maxlength`.
   <input type="submit" value="Submit">
 </form>
 ```
+
+### Matching a Pattern
+
+It's relate to regex e.g `"[a-zA-Z0-9]+"`
+
+```html
+<form action="/example.html" method="POST">
+  <label for="payment">Credit Card Number (no spaces):</label>
+  <br>
+  <input id="payment" name="payment" type="text" required pattern="[0-9]{14,16}">
+  <input type="submit" value="Submit">
+</form>
+```
+
