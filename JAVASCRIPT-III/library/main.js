@@ -75,6 +75,10 @@ class Movie extends Media{
     }
 }
 
+class CD {
+    constructor(title, rating, )
+}
+
 // Book object (History of EveryThing)
 const historyOfEverything = new Book('Bill Bryson', 'A short History of Nearly Everything', 544);
 
