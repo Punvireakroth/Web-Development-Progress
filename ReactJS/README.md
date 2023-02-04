@@ -67,3 +67,82 @@ const h1 = <h1>Hello World</h1>;
 ```
 
 - This code is called JSX
+
+### What is JSX ?
+
+- Eventhough JSX written in JS file but it is not a valid JS code which mean we have to compile to a regular JS code first in other for browser to understand (It's often called syntax extension)
+
+### JSX Elements
+
+- It's somewhat look exactly like HTML element
+
+```jsx
+<h1>Hello There</h1>
+```
+
+### JSX Elements And Their Surroundings
+
+- JSX is treated as JS expression which mean we can store it where ever we like.
+
+```jsx
+const myTeam = {
+  center: <li>Benzo Walli</li>,
+  powerForward: <li>Rasha Loa</li>,
+  smallForward: <li>Tayshaun Dasmoto</li>,
+  shootingGuard: <li>Colmar Cumberbatch</li>,
+  pointGuard: <li>Femi Billon</li>,
+};
+const navBar = <nav>I am a nav bar</nav>;
+```
+
+### Attributes In JSX
+
+- It's similar to HTML
+
+### Nested JSX
+
+- It's just like html
+
+```jsx
+<a href="https://www.example.com">
+  <h1>Click me!</h1>
+</a>
+```
+
+- If JSX take up more than one lines you need to wrap it with ()
+
+```jsx
+<a href="https://www.example.com">
+  <h1>Click me!</h1>
+</a>;
+const theExample = (
+  <a href="https://www.example.com">
+    <h1>Click me!</h1>
+  </a>
+);
+```
+
+### JSX Outer Elements
+
+- if we have multiple lines of jsx simpily wrap it with div
+
+```jsx
+const paragraphs = (
+  <div id="i-am-the-outermost-element">
+    <p>I am a paragraph.</p>
+    <p>I, too, am a paragraph.</p>
+  </div>
+);
+```
+
+### Rendering JSX
+
+- To make it appare on the screen
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+
+// Copy code here:
+ReactDOM.render(<h1>Hello world</h1>, document.getElementById("app"));
+```
