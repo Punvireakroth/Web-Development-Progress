@@ -146,3 +146,11 @@ import ReactDOM from "react-dom";
 // Copy code here:
 ReactDOM.render(<h1>Hello world</h1>, document.getElementById("app"));
 ```
+
+### ReactDOM.render() I
+
+- ReactDOM is a library that contain a variaty of method we can use e.g ReactDOM.render() and it deal with DOM.
+
+### ReactDOM.render() II
+
+- The second aurgurent `document.getElementById('app')` is to point where the jsx should render. In this case it render in a HTML call index.html that has #app id in it.
