@@ -47,3 +47,23 @@ printCarInfo(truck);
 
 - Traditionally when the DOM is update the browser need to repaint the entire web page.
 - With Virtual DOM it represent as object. So when something happend on the page it make a copy of that JS and make the change of that copy and compare the two JS object what has changed then it inform those changes to the browser and only those part of the page is going to be change. As a result this perform faster than the traditional method.
+
+# JSX
+
+## Into to JSX
+
+### Why React ?
+
+- fast
+- modular
+- scalable
+- flexible
+- popular
+
+### Hello World
+
+```jsx
+const h1 = <h1>Hello World</h1>;
+```
+
+- This code is called JSX
