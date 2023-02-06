@@ -1,3 +1,9 @@
+# Table of Contents
+
+1. [Destructuring](#js-destructuring)
+2. [Virtual DOM](#the-virtual-dom)
+3. [JSX](#jsx)
+
 # JS Destructuring
 
 - It's used to easily extract data from object and array
@@ -310,4 +316,57 @@ const pics = {
 const img = <img src={pics[coinToss() === "heads" ? "kitty" : "doggy"]} />;
 
 ReactDOM.render(img, document.getElementById("app"));
+```
+
+### JSX Conditionals: &&
+
+```jsx
+const tasty = (
+  <ul>
+    <li>Applesauce</li>
+    {!baby && <li>Pizza</li>}
+    {age > 15 && <li>Brussels Sprouts</li>}
+    {age > 20 && <li>Oysters</li>}
+    {age > 25 && <li>Grappa</li>}
+  </ul>
+);
+```
+
+### .map in JSX
+
+```jsx
+import React from "react";
+import ReactDOM from "react-dom";
+
+const people = ["Rowe", "Prevost", "Gare"];
+
+const peopleLis = people.map((person) => (
+  // expression goes here:
+  <li>{person}</li>
+));
+
+// ReactDOM.render goes here:
+
+ReactDOM.render(<ul>{peopleLis}</ul>, document.getElementById("app"));
+```
+
+### Keys
+
+- Key is an attribute in JSX we cannot see it React do stuff internally
+- We use it in the following condition
+
+  - The list-items have memory from one render to the next. For instance, when a to-do list renders, each item must “remember” whether it was checked off. The items shouldn’t get amnesia when they render.
+
+  - A list’s order might be shuffled. For instance, a list of search results might be shuffled from one render to the next.
+
+### React.createElement
+
+- When JSX get compile it secretly using React.createElement to turn into something like this.
+
+```jsx
+const h1 = <h1>Hello world</h1>;
+
+// to this
+
+const h1 = React.createElement("h1", null, "Hello world");
 ```
