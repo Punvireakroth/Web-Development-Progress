@@ -157,6 +157,8 @@ ReactDOM.render(<h1>Hello world</h1>, document.getElementById("app"));
 
 ### Passing a Variable to ReactDOM.render()
 
+- We can pass varaible to ReactDOM.render() as long as it is JSX
+
 ```js
 const toDoList = (
   <ol>
@@ -167,3 +169,14 @@ const toDoList = (
 
 ReactDOM.render(toDoList, document.getElementById("app"));
 ```
+
+### The Virtual DOM
+
+ReactDOM.render() only update DOM elements that have changed
+
+## Advanced JSX
+
+### class vs className
+
+- There are minor differ in syntax between JSX and html one of those is `className` that is equivalent to `class` in html.
+- The reason for this is because when JSX compile to JS the class keyword is a reserve keyword in JS.
