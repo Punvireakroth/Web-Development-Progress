@@ -180,3 +180,15 @@ ReactDOM.render() only update DOM elements that have changed
 
 - There are minor differ in syntax between JSX and html one of those is `className` that is equivalent to `class` in html.
 - The reason for this is because when JSX compile to JS the class keyword is a reserve keyword in JS.
+
+### Self-Closing Tags
+
+- In JSX self-closing tags you will need to put forward slash
+
+```jsx
+<br />
+```
+
+### JavaScript In Your JSX In Your JavaScript
+
+- We can write JS code inside JSX code which mean we write JS code in JS file and in JSX code lolz.
