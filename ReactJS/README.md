@@ -192,3 +192,54 @@ ReactDOM.render() only update DOM elements that have changed
 ### JavaScript In Your JSX In Your JavaScript
 
 - We can write JS code inside JSX code which mean we write JS code in JS file and in JSX code lolz.
+
+### Curly Braces in JSX
+
+- By Wrapping the js code in {} in JSX code the code in that {} will we treated as JS code
+
+### Variables in JSX
+
+- We can also inject JS variable to JSX code eventhough it declare outside the JSX
+
+```jsx
+const name = "vireakroth";
+const greeting = <p>Hello, {name}</p>;
+```
+
+### Variable Attributes in JSX
+
+- Variable are often use to give value in attribute as well.
+
+```js
+// Use a variable to set the `height` and `width` attributes:
+
+const sideLength = "200px";
+
+const panda = (
+  <img
+    src="images/panda.jpg"
+    alt="panda"
+    height={sideLength}
+    width={sideLength}
+  />
+);
+```
+
+- Also object also commonly use to give value as well
+
+```jsx
+const pics = {
+  panda: "http://bit.ly/1Tqltv5",
+  owl: "http://bit.ly/1XGtkM3",
+  owlCat: "http://bit.ly/1Upbczi"
+}
+
+const panda = {
+  <img
+    src={pics.panda}
+    alt="lazy panda"
+  / >
+}
+```
+
+### Event Listeners in JSX
