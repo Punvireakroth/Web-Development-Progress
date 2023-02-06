@@ -243,3 +243,12 @@ const panda = {
 ```
 
 ### Event Listeners in JSX
+
+- You can have event listener in JSX
+  e.g
+
+```jsx
+<img onClick={myFunc} />
+```
+
+Refer to this docs https://reactjs.org/docs/events.html#supported-events
