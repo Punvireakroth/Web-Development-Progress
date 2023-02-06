@@ -154,3 +154,16 @@ ReactDOM.render(<h1>Hello world</h1>, document.getElementById("app"));
 ### ReactDOM.render() II
 
 - The second aurgurent `document.getElementById('app')` is to point where the jsx should render. In this case it render in a HTML call index.html that has #app id in it.
+
+### Passing a Variable to ReactDOM.render()
+
+```js
+const toDoList = (
+  <ol>
+    <li>Learn React</li>
+    <li>Become a Developer</li>
+  </ol>
+);
+
+ReactDOM.render(toDoList, document.getElementById("app"));
+```
