@@ -12,7 +12,17 @@ app.get("/", (req, res) => {
   const articles = [
     {
       title: "Go Go real madrid",
-      createdAt: Date.now(),
+      createdAt: new Date(),
+      description: "I am a Real Madrid fan",
+    },
+    {
+      title: "Go Go Cambodia",
+      createdAt: new Date(),
+      description: "I am a Real Madrid fan",
+    },
+    {
+      title: "Go Go Brighton",
+      createdAt: new Date(),
       description: "I am a Real Madrid fan",
     },
   ];
