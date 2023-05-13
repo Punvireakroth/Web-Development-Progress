@@ -19,12 +19,22 @@
 
       <% articles.forEach(article => { %>
       <div class="card mt-4">
-        <div class="card-body">
+        <div class="card-body position-relative">
           <h1><%=article.title%></h1>
           <div class="card-subtitle text-muted mb-2">
             <%=article.createdAt.toLocaleDateString()%>
           </div>
           <div class="card-text mb-2"><%= article.description %></div>
+          <a href="/articles/<%= article.slug %>" class="btn btn-primary"
+            >Read More</a
+          >
+          <form
+            class="d-inline"
+            action="/articles/<%= article.id %>?_method=DELETE"
+            method="POST"
+          >
+            <button type="submit" class="btn btn-danger">delete</button>
+          </form>
         </div>
       </div>
       <%}) %>
