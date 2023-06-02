@@ -15,7 +15,7 @@ router.get("/", getGoals);
 router.post("/", createGoals);
 
 // Edit
-router.put("/:id", editGoals);
+router.patch("/:id", editGoals);
 
 // Delete
 router.delete("/:id", deleteGoals);
