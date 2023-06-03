@@ -10,6 +10,7 @@ app.use(express.urlencoded({ extended: false }));
 const dotenv = require("dotenv").config();
 const { errorHandler } = require("./middleware/errorMiddleware");
 app.use("/api/goals", require("./routes/goalRoutes"));
+app.use("/api/user", require("./routes/userRoutes"));
 app.use(errorHandler);
 
 // Connect with database
