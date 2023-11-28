@@ -2,9 +2,10 @@
 
 ### Intro to Class
 - Classes use to model similar real-world stuff and create objects from it.
+  - So code could be organized.
 
 ### Constructor
-
+- When create a new instance of a class constructor has been called.
 ```js
 class Surgeon {
   constructor(name, department) {
@@ -14,7 +15,7 @@ class Surgeon {
 }
 ```
 ### Instance
-
+Instance is an object of class like Dog -> Breed of dog
 ```js
 class Surgeon {
   constructor(name, department) {
