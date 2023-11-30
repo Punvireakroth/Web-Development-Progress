@@ -101,6 +101,46 @@ console.log(surgeonRomero.remainingVacationDays());
 - SupperClass is the main class we want to share properties or methods.
 - The SubClass is a class that gets the properties or methods from the main class.
 
+```js
+
+// Super class
+class HospitalEmployee {
+  constructor(name) {
+    this._name = name;
+    this._remainingVacationDays = 20;
+  }
+  
+  get name() {
+    return this._name;
+  }
+  
+  get remainingVacationDays() {
+    return this._remainingVacationDays;
+  }
+  
+  takeVacationDays(daysOff) {
+    this._remainingVacationDays -= daysOff;
+  }
+}
+
+// Subclass
+class Nurse extends HospitalEmployee {
+  constructor(name, certifications) {
+    super(name);
+    this._certifications = certifications;
+  }
+}
+
+// New instance of the class
+const nurseOlynyk = new Nurse('Olynyk', ['Trauma', 'Pediatrics']);
+
+// It's also can derive the method of super class as well
+nurseOlynyk.takeVacationDays(5);
+
+console.log(nurseOlynyk.remainingVacationDays);
+
+```
+
 ### Static
 
 - static use when we want to directly call a method from its class. It means we do not have to instantiate the object from the class first in other to call the method.
@@ -121,3 +161,4 @@ class Animal {
 
 console.log(Animal.generateName()); // returns a name
 ```
+
